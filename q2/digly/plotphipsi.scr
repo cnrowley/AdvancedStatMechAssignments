@@ -1,0 +1,16 @@
+set terminal png
+set output "digly.png"
+
+set xrange [-180:180]
+set yrange [-180:180]
+
+set xlabel "Phi"
+set ylabel "Psi"
+
+set grid
+show grid
+
+plot "digly.colvars.traj" using 2:3 with points
+
+quit
+

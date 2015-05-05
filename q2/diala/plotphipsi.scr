@@ -1,0 +1,16 @@
+set terminal png
+set output "diala.png"
+
+set xrange [-180:180]
+set yrange [-180:180]
+
+set xlabel "Phi"
+set ylabel "Psi"
+
+set grid
+show grid
+
+plot "diala.colvars.traj" using 2:3 with points
+
+quit
+

@@ -1,0 +1,283 @@
+* DRUDE model compound topology file
+* from toppar_drude_master_jun10a2_rimp2_vtz_newcmap.str
+* September 2010
+*
+
+
+!ioformat extended
+!bomlev -1
+
+read rtf card !append
+* Topology for drude model compounds
+*
+!34
+
+MASS     1 HS        1.00800 H  ! S
+MASS     2 ST       32.06000 S  ! H2S
+MASS     3 LP        0.00000 H  ! H
+MASS     4 HJ        1.00800 H  ! S
+MASS     5 SJ       32.06000 S  ! H2S
+MASS     6 OT       15.99940 O  ! TIPS3P WATER OXYGEN
+MASS     7 HT        1.00800 H  ! TIPS3P WATER HYDROGEN
+MASS     8 O4       15.99940 O  ! TIPS3P WATER OXYGEN
+MASS     9 H4        1.00800 H  ! TIPS3P WATER HYDROGEN
+MASS    10 SK       32.06000 S  ! H2S
+MASS    11 C        16.00000 C  ! methane C
+MASS    12 H         1.00000 H  ! methane H
+MASS    86 NE       20.17970 NE ! neon
+MASS    87 AR       39.94800 AR ! neon
+MASS   151 ODW      15.99940 O  ! water oxygen
+MASS   152 HDW       1.00800 H  ! water hydrogen
+MASS   153 DOH2      0.00000 H  ! water Drude
+MASS   155 DSH2      0.00000 H  ! water Drude
+MASS   156 S5P      32.06000 S  ! water sulfur S5P
+MASS   157 SD4      32.06000 S  ! 4P polar H2S
+MASS   158 HD4        1.00800 H  ! 4P polar H2S
+
+
+DECL -CA
+DECL -C
+DECL -O
+DECL +N
+DECL +HN
+DECL +CA
+
+DEFA FIRS NONE LAST NONE
+AUTOGENERATE ANGLES DIHEDRALS DRUDE  !note use of DRUDE
+
+
+! NE
+RESI NEO          0.000
+GROUP
+ATOM NE  NE      0.00
+PATCH FIRST NONE LAST NONE
+
+! NE
+RESI ARG          0.000
+GROUP
+ATOM AR  AR      0.00
+PATCH FIRST NONE LAST NONE
+
+! methane
+RESI CH4           0.00
+GROUP
+ATOM C    C     -0.240
+ATOM H1   H      0.06
+ATOM H2   H      0.06
+ATOM H3   H      0.06
+ATOM H4   H      0.06
+BOND C H1 C H2 C H3 C H4
+THET H1 C H2 H2 C H3 H1 C H3
+PATCH FIRST NONE LAST NONE
+
+
+
+! 3 point Jorgensen H2S
+RESI HS3P          0.000
+GROUP
+ATOM SH2  SJ      -0.47
+ATOM H1   HJ       0.235
+ATOM H2   HJ       0.235
+BOND SH2 H1
+BOND SH2 H2
+BOND H1  H2 ! for SHAKE
+THET H1 SH2 H2
+IC   H1   SH2   H2    H1    1.3400   92.00    0.00   44.00   1.9278
+PATCH FIRST NONE LAST NONE
+
+
+! 4 point H2S
+RESI HS4P          0.000
+GROUP
+ATOM SH2  ST       0.40000
+ATOM SM   LP      -0.90000
+ATOM H1   HS       0.25000
+ATOM H2   HS       0.25000
+BOND SH2 H1
+BOND SH2 H2
+BOND SH2 SM
+BOND H1  H2 ! for SHAKE
+ANGLE H1 SH2 H2
+IC   H1   SH2   H2    H1    1.3400   92.00    0.00   44.00   1.9278
+IC   H1   SM   *SH2   H2    1.3400   46.00  180.00   46.00   1.3400
+IC   H2   H1    SH2   SM    0.0000    0.00    0.00   46.00   0.1862
+PATCH FIRST NONE LAST NONE
+
+!Klein 4 point H2S
+RESI KH2S          0.000
+GROUP
+ATOM SH2  SK       0.66100
+ATOM SM   LP      -1.21700
+ATOM H1   HS       0.27800
+ATOM H2   HS       0.27800
+BOND SH2 H1
+BOND SH2 H2
+BOND SH2 SM
+BOND H1  H2 ! for SHAKE
+ANGLE H1 SH2 H2
+IC   H1   SH2   H2    H1    1.3400   92.00    0.00   44.00   1.9278
+IC   H1   SM   *SH2   H2    1.3400   46.00  180.00   46.00   1.3400
+IC   H2   H1    SH2   SM    0.0000    0.00    0.00   46.00   0.1933
+PATCH FIRST NONE LAST NONE
+
+!Polarizable 4 point H2S
+RESI S4D           0.000
+GROUP
+ATOM SH2  SD4      0.54  TYPE DSH2 ALPHA -3.3  THOLE 0.2
+ATOM SM   LP       -0.95
+ATOM H1   HD4      0.205
+ATOM H2   HD4      0.205
+BOND SH2 H1
+BOND SH2 H2
+BOND SH2 SM
+BOND H1  H2 ! for SHAKE
+ANGLE H1 SH2 H2
+LONEPAIR bisector SM SH2 H1 H2 distance 0.205 angle 0.0 dihe 0.0
+IC   H1   SH2   H2    H1    1.3400   92.00    0.00   44.00   1.9278
+IC   H1   SM   *SH2   H2    1.3400   46.00  180.00   46.00   1.3400
+IC   H2   H1    SH2   SM    0.0000    0.00    0.00   46.00   0.205
+PATCH FIRST NONE LAST NONE
+
+RESI HS5P
+GROUP
+ATOM SH2     S5P      0.182  TYPE DSH2 ALPHA -2.567  THOLE 0.200
+ATOM LPAS  LP      -0.205
+ATOM LPBS  LP      -0.205
+ATOM HS1     HS       0.114
+ATOM HS2     HS       0.114
+ACCEPTOR SH2
+BOND SH2 HS1
+BOND SH2 HS2
+BOND SH2 LPAS
+BOND SH2 LPBS
+BOND HS1 HS2 ! for SHAKE
+ANGLE HS1 SH2 HS2
+LONEPAIR bisector LPAS SH2    HS1     HS2      distance 0.75 angle  95.00 dihe 100.00
+LONEPAIR bisector LPBS SH2    HS2     HS1      distance 0.75 angle  95.00 dihe 100.00
+IC HS1    SH2     HS2   HS1   1.3400   92.00    0.00   44.00    1.9278
+IC HS2    HS1    *SH2   LP1A  1.3400   91.79  -90.00   120.00   0.75
+IC HS2    HS1    *SH2   LP1B  1.3400   91.79   90.00   120.00   0.75
+ANISOTROPY     SH2      HS1  LPAS  LPBS  A11  0.91090 A22  1.15065
+PATCH FIRST NONE LAST NONE
+PATCH FIRST NONE LAST NONE
+
+
+RESI TIP3         0.000 ! tip3p water model, generate using noangle nodihedral
+GROUP
+ATOM OH2  OT     -0.834
+ATOM H1   HT      0.417
+ATOM H2   HT      0.417
+BOND OH2 H1 OH2 H2 H1 H2    ! the last bond is needed for shake
+ANGLE H1 OH2 H2             ! required
+ACCEPTOR OH2
+PATCHING FIRS NONE LAST NONE
+
+RESI TIP4    0.000   ! TIPS4P WATER MODEL
+GROUP
+ATOM OH2  O4      0.00
+ATOM OM   LP     -1.04
+ATOM H1   H4      0.52
+ATOM H2   H4      0.52
+BOND OH2  H1     OH2  OM    OH2  H2     H1   H2 
+THET H1   OH2  H2
+IC   H1   OM   *OH2   H2    0.9572   52.26  180.00   52.26   0.9572
+IC   H2   H1    OH2   OM    0.0000    0.00    0.00   52.26   0.15
+PATCHING  FIRS NONE LAST NONE
+
+! SWM4-NDP water
+RESI SWM4          0.000
+GROUP
+ATOM OH2  ODW      0.00000  TYPE DOH2    ALPHA -0.97825258 THOLE 1.3   
+ATOM OM   LP      -1.11466 
+ATOM H1   HDW      0.55733
+ATOM H2   HDW      0.55733
+BOND OH2 H1
+BOND OH2 H2
+BOND OH2 OM
+BOND H1  H2 ! for SHAKE
+ANGLE H1 OH2 H2
+ACCEPTOR OH2
+LONEPAIR bisector OM OH2 H1 H2 distance 0.24034492 angle 0.0 dihe 0.0
+IC   H1   OH2   H2    H1    0.9572 104.52     0.00   37.74   1.5139
+IC   H1   OM   *OH2   H2    0.9572  52.26   180.00   52.26   0.9572
+IC   H2   H1    OH2   OM    1.5139  37.74     0.01   52.26   0.24034492
+PATCH FIRST NONE LAST NONE
+
+end
+
+read para card !append
+* FF parameters
+*
+
+BONDS
+!atom type      Kb       b0
+!============================================
+!
+C        H        500.0       1.087
+ST       LP       0.00        0.1862     ! SWM4, SWM4-NDP water, Guillaume 2005
+ST       HS       398.00      1.3400     ! update to H2S geometry
+HS       HS       0.00        1.92438    ! spectroscopic
+SJ       HJ       398.00      1.3400
+SK       LP       0.00        0.1933     ! Klein
+SK       HS       398.00      1.3400     ! Klein
+HJ       HJ       0.00        1.92438
+OT       HT       450.000     0.9572     ! ALLOW   WAT
+HT       HT       0.000       1.5139     ! ALLOW WAT
+H4       O4       450.0       0.9572     ! from TIPS3P geometry
+H4       H4       0.0         1.5139     ! from TIPS3P geometry (for SHAKE w/PARAM)
+LP       O4       0.0         0.15       ! from TIP4P geometry
+ODW      HDW      450.00      0.9572     ! SWM4, SWM4-NDP water, Guillaume 2005
+ODW      LP       0.00        0.24034492 ! SWM4, SWM4-NDP water, Guillaume 2005
+ODW      DOH2     500.00      0.000      ! SWM4, SWM4-NDP water, Guillaume 2005
+HDW      HDW      0.00        1.5139     ! SWM4, SWM4-NDP water, Guillaume 2005
+LP       DOH2     500.00      0.000      ! SWM4 water models
+S5P      HS       398.00      1.3400
+S5P      DSH2     500.00      0.000
+S5P      LP       0.00        0.7500
+SD4      LP       0.00        0.205     !  H2S-Drude 4P
+SD4      HD4      398.00      1.3400     !  H2S-Drude 4P
+SD4      DSH2     500.00      0.000      !  H2S-Drude 4P
+HD4      HD4      0.00        1.92438    ! spectroscopic
+
+ANGLES
+!atom types     Ktheta  Theta0   Kub     S0
+!==================================================
+HS     ST      HS       39.6      92.0      ! update to H2S geometry
+HS     ST      LP       0.0       46.065
+HJ     SJ      HJ       39.6      92.0  
+HS     SK      HS       39.6      92.0      !  update to H2S geometry
+HS     SK      LP       0.0       46.065
+HD4    SD4     HD4      39.6      92.0      !  H2S-Drude 4P
+HD4    SD4     LP       0.0       46.065    !  H2S-Drude 4P
+HT     OT      HT       55.0      104.5200  ! ALLOW WAT
+H4     O4      H4       55.0      104.52    ! FROM TIPS3P GEOMETRY
+HDW    ODW     HDW      55.000    104.52    ! SWM4-NDP water Guillaume 2005
+HS     S5P     HS       39.6      92.0
+LP     S5P     HS       0.0       109.5
+H      C       H        50.0      109.5
+
+NONBONDED nbxmod  5 atom vatom cdiel vdistance switch vswitch -
+cutnb 16.0 ctofnb 12.0 ctonnb 10.0 eps 1.0 e14fac 1.0 wmin 1.5
+!
+ST       0.0000    -0.4965       2.0933     ! Kristof 4P H2S
+SK       0.0000    -0.5343       2.0709     ! Klein 4P H2S
+SD4      0.0000    -0.5820       2.1030     ! Drude 4P H2S
+HS       0.0000    -0.0000       0.0000     ! Drude 4P H2S
+HJ       0.0000    -0.0000       0.0000     ! Jorgensen 3p H2S
+LP       0.0000    -0.0000       0.0000     ! general
+SJ       0.0000    -0.2500       2.0766     ! Jorgensen
+OT       0.0000    -0.1521       1.7682     ! ALLOW   WAT
+HT       0.0000    -0.0000       0.0000     ! tip3p
+O4       0.0000    -0.1548       1.7699     ! tip4p
+H4       0.0000    -0.0000       0.0000     ! tip4p
+HDW      0.0000    -0.0000       0.0000     ! SWM4, SWM4-NDP water, GL, 2005
+ODW      0.0000    -0.21094325   1.78692899 ! SWM4, SWM4-NDP water, GL, 2005
+S5P      0.0000    -0.58         2.09       ! Drude 5P H2S
+DOH2     0.0000    -0.0000       0.0000     ! Drude
+DSH2     0.0000    -0.0000       0.0000     ! Drude
+HD4      0.0000    -0.0000       0.0000     ! H
+NE       0.000000  -0.086000     1.5300
+AR       0.000000  -0.23805      1.9110
+C        0.000000  -0.293831     1.865
+H        0.000000  -0.0          0.0
+END

@@ -1,0 +1,103 @@
+import os, shutil
+import sys
+import subprocess
+
+def sub(cwd, w):
+    pbslines="""
+#PBS -l walltime=60:00:00
+#PBS -l nodes=1:ppn=8
+#PBS -o std.out
+#PBS -q qwork
+#PBS -j oe
+
+module load namd
+"""
+    p=subprocess.Popen(['qsub'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
+    p.stdin.write('#PBS -N ' + w + '\n')
+    for l in pbslines:
+        p.stdin.write(l)
+    p.stdin.write('cd ' + cwd + '/' + w + '\n')
+    p.stdin.write('namd2 +p8 tip4p-methanol-umb-eq.conf >& tip4p-methanol-umb-eq.out\n')
+    p.stdin.write('namd2 +p8 tip4p-methanol-umb-prod.conf >& tip4p-methanol-umb-prod.out\n')
+    p.stdin.close()
+    p.wait()
+    jobid=p.stdout.read()[:-1]
+    p.stdout.close()
+    print jobid
+
+
+tclLines="""
+colvarsTrajFrequency 100
+
+colvar {
+  name slabcom
+  distanceZ {
+     main {
+        atomsFile ../slab.pdb
+        atomsCol  B
+        atomsColValue 1.0
+     }
+
+     ref {
+       dummyAtom ( 0.000, 0.000, 0.000 )
+     }
+     axis (0.0, 0.0, 1.0)
+  }
+}
+  
+colvar {
+  name solute1
+  distanceZ {
+     main {
+       atomsFile ../solv.pdb
+       atomsCol  B
+       atomsColValue 1.0
+     }
+  
+     ref {
+       atomsFile ../slab.pdb
+       atomsCol  B
+       atomsColValue 1.0
+     }
+  
+     axis (0.0, 0.0, 1.0)
+   }
+}
+
+harmonic {
+  name slabrestcom
+  colvars  slabcom
+  centers 0.0
+  forceConstant 1
+}
+
+harmonic {
+  name soluterest1
+  colvars  solute1
+  forceConstant 5.0  
+"""
+
+cwd=os.getcwd()
+
+for i in range(0, 35):
+    print 'Window ' + str(i)
+    print 'Making subdirectory ' + 'window_' + str(i)
+    os.mkdir('window_' + str(i))
+    print 'Copying window_' + str(i) + '.pdb to window_' + str(i) + '/initial.pdb'
+    shutil.copyfile('window_' + str(i) + '.pdb', 'window_' + str(i) + '/initial.pdb')
+    print 'Copying tip4p-methanol-umb-eq.conf to window_' + str(i) + '/tip4p-methanol-umb-eq.conf'
+    shutil.copyfile('tip4p-methanol-umb-eq.conf', 'window_' + str(i) + '/tip4p-methanol-umb-eq.conf')
+    print 'Copying tip4p-methanol-umb-prod.conf to window_' + str(i) + '/tip4p-methanol-umb-prod.conf'
+    shutil.copyfile('tip4p-methanol-umb-prod.conf', 'window_' + str(i) + '/tip4p-methanol-umb-prod.conf')
+    
+    tclOutput=open('window_' + str(i) + '/umbrella.tcl', 'w')
+    
+    print 'Writing TCL restraint for window ' + str(i)
+    for l in tclLines:
+        tclOutput.write(l)
+    tclOutput.write('   centers ' + str(float(34-i)) + '\n')
+    tclOutput.write('}\n')
+    tclOutput.close()
+    
+    sub(cwd, 'window_' + str(i))
+    print

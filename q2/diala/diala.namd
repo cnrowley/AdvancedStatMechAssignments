@@ -1,0 +1,73 @@
+# input
+coordinates             diala.pdb
+structure               diala.psf
+parameters              ../par_all27_prot_lipid_na.inp
+paratypecharmm          on
+
+# output
+set output              diala
+outputname              $output
+
+binaryoutput            no
+binaryrestart           no
+restartfreq             1000
+
+fixedAtoms              off
+
+# Basic dynamics
+exclude                 scaled1-4
+1-4scaling              1
+COMmotion               no
+dielectric              1.0
+
+# Simulation space partitioning
+switching               on
+switchdist              9
+cutoff                  10
+pairlistdist            12
+
+# Multiple timestepping
+firsttimestep           0
+timestep                2
+stepspercycle           20
+nonbondedFreq           2
+fullElectFrequency      4
+
+rigidbonds all
+
+# Temperature control
+
+set temperature         298
+temperature             $temperature;  # initial temperature
+
+# Constant Temperature Control
+langevin            on            ;# langevin dynamics
+langevinDamping     1.            ;# damping coefficient of 1/ps
+langevinTemp        $temperature  ;# random noise at this level
+langevinHydrogen    no            ;# don't couple bath to hydrogens
+
+# Periodic Boundary conditions
+cellBasisVector1    24.0   0.   0.  ;# vector to the next image
+cellBasisVector2     0.   24.0  0.
+cellBasisVector3     0.    0   24.0
+cellOrigin           0.    0.   0.  ;# the *center* of the cell
+
+outputenergies 1000
+
+#PME (for full-system periodic electrostatics)
+PME                 yes
+
+# manually specify grid
+PMEGridSizeX        24
+PMEGridSizeY        24 
+PMEGridSizeZ        24 
+
+wrapWater           on              ;# wrap water to central cell
+wrapAll             on              ;# wrap other molecules too
+
+colvars  on
+colvarsConfig colvar.tcl
+
+# Scripting
+
+run                 5000000

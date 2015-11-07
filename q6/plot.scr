@@ -1,0 +1,18 @@
+set encoding utf8 
+set terminal png
+set output "densprofile.png"
+
+set xlabel "Z (Å)"
+set ylabel "rho (mol/Å^3)"
+
+set title "Plot of Lipid Bilayer Density Profile"
+set yrange [0:0.01]
+set xrange [-38:38]
+
+plot 'tail.txt' using 1:2 title 'tail' with lines lt rgb "black" linewidth 2, \
+     'headgroup.txt' using 1:2 title 'head' with lines lt rgb "blue" linewidth 2, \
+     'glycerol.txt' using 1:2 title 'glycerol' with lines lt rgb "red" linewidth 2, \
+     'water.txt'  using 1:2 title 'water' with lines lt rgb "purple" linewidth 2, \
+     'ion.txt'  using 1:2 title 'ion' with lines lt rgb "#006400" linewidth 2
+
+#quit

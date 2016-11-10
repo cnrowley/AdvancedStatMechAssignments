@@ -1,0 +1,22 @@
+set terminal png size 1024,1024
+set output "traj_water.png"
+
+set xrange [-20:20]
+set yrange [-20:20]
+
+set xlabel "X (\305)"
+set ylabel "Y (\305)"
+
+set grid
+show grid
+set key off
+set style line 1 lw 2
+plot "prod_1.unwrap.colvars.traj"  using 2:3 with lines lw 2, \
+     "prod_2.unwrap.colvars.traj"  using 2:3 with lines lw 2, \
+     "prod_3.unwrap.colvars.traj"  using 2:3 with lines lw 2, \
+     "prod_4.unwrap.colvars.traj"  using 2:3 with lines lw 2, \
+     "prod_5.unwrap.colvars.traj"  using 2:3 with lines lw 2
+
+quit
+
+

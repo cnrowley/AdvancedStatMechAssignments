@@ -1,0 +1,47 @@
+* Force Field Parameter File.
+* 
+
+BOND
+ca ca  478.40   1.387
+ca os  372.40   1.373
+ca ha  344.30   1.087
+c3 os  301.50   1.439
+c3 h1  335.90   1.093
+c3 c3  303.10   1.535
+
+ANGLE
+ca ca ca   67.180     119.970
+ca ca os   69.790     119.200
+ca ca ha   48.460     120.010
+ca os c3   62.270     117.970
+os c3 h1   50.840     108.820
+os c3 c3   67.780     108.420
+c3 c3 h1   46.360     110.070
+h1 c3 h1   39.180     109.550
+c3 os c3   62.390     112.450
+
+DIHEDRAL
+X  ca ca X      3.625         2     180.0
+X  ca os X      0.900         2     180.0
+X  c3 os X      0.383         3       0.0
+X  c3 c3 X      0.156         3       0.0
+h1 c3 c3 os     0.000         3       0.0
+h1 c3 c3 os     0.250         1       0.0
+os c3 c3 os     0.144         3       0.0
+os c3 c3 os     1.175         2       0.0
+c3 c3 os c3     0.383         3       0.0
+c3 c3 os c3     0.100         2     180.0
+
+IMPHI
+ca ca ca os     1.100         2     180.0	! Using default value
+X  X  ca ha     1.100         2     180.0
+
+NONBONDED  NBXMOD 5  GROUP SWITCH CDIEL -
+CUTNB 14.0  CTOFNB 12.0  CTONNB 10.0  EPS 1.0  E14FAC 0.83333333  WMIN 1.4
+!                Emin     Rmin/2              Emin/2     Rmin  (for 1-4's)
+!             (kcal/mol)    (A)
+ca      0.00   -0.0860    1.9080      0.00   -0.0430    1.9080
+ha      0.00   -0.0150    1.4590      0.00   -0.0075    1.4590
+os      0.00   -0.1700    1.6837      0.00   -0.0850    1.6837
+c3      0.00   -0.1094    1.9080      0.00   -0.0547    1.9080
+h1      0.00   -0.0157    1.3870      0.00   -0.0078    1.3870

@@ -1,0 +1,17 @@
+set encoding utf8 
+set terminal png
+set output "pmf.png"
+
+set xlabel "Z (Å)"
+set ylabel "PMF (kcal/mol)"
+
+set title "PMFs for Rotaxane Movement"
+set yrange [0:15]
+set xrange [-10:10]
+
+set key center top
+
+plot 'deprotonated/pmf_deprotonated.pmf' using 1:2 title 'deprotonated' with lines lt rgb "black" linewidth 2, \
+     'protonated/pmf_protonated.pmf' using 1:2 title 'protonated' with lines lt rgb "blue" linewidth 2
+
+#quit

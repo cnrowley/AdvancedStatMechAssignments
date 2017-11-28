@@ -1,0 +1,4087 @@
+# 
+# Molecular graphics exported from VMD 1.9.2
+# http://www.ks.uiuc.edu/Research/vmd/
+# 
+# Requires Tachyon version 0.99.0 or newer
+# 
+# Default tachyon rendering command for this scene:
+#   tachyon  -aasamples 12 %s -format TARGA -o %s.tga
+# 
+Begin_Scene
+Resolution 546 857
+Shader_Mode Medium
+  Trans_VMD
+  Fog_VMD
+End_Shader_Mode
+Camera
+  Projection Orthographic
+  Zoom 0.333333
+  Aspectratio 1
+  Antialiasing 12
+  Raydepth 50
+  Center  0 0 -2
+  Viewdir 0 0 2
+  Updir   0 1 0
+End_Camera
+Directional_Light Direction 0.1 -0.1 1 Color 1 1 1
+Directional_Light Direction -1 -2 0.5 Color 1 1 1
+
+Background 1 1 1
+Fog Exp2 Start 0 End 10 Density 0.32 Color 1 1 1
+# MoleculeID: 0 ReprID: 0 Beginning CPK
+# MoleculeID: 0 ReprID: 0 Beginning VDW
+Sphere 
+  Center -0.0555858 0.0955741 0.010514 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0883113 -0.0317847 -0.0240126 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.018742 -0.143026 0.030504 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0869538 -0.106497 0.118646 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.110568 0.0175648 0.164811 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.103384 0.182757 -0.0276621 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.167508 -0.045708 -0.0941716 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.149956 -0.183232 0.157649 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.185216 0.0543767 0.231235 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0460947 -0.273232 -0.0106935 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.165195 -0.304514 -0.0777264 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0499645 -0.373477 -0.00466135 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.189816 -0.427956 -0.124723 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.24783 -0.237384 -0.0842948 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0297687 -0.4922 -0.0635398 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.148972 -0.345156 0.0231664 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.281652 -0.466403 -0.162498 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0938389 -0.576826 -0.0723076 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0867629 0.252012 0.144781 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0711672 0.256591 0.250982 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.193481 0.256315 0.132263 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.106422 -0.65553 -0.184447 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.063901 -0.643661 -0.282373 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.20979 -0.669035 -0.210465 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0619537 -0.770621 -0.116164 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0503478 -0.829759 -0.1627 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.147048 -0.832668 -0.0253886 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0821833 -0.959373 -0.120994 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.111452 -0.77788 -0.233277 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.130147 -0.959888 0.0118288 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.241318 -0.789394 0.000545688 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0113252 -1.01622 -0.0282989 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.00697162 -1.11607 0.00523734 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.022134 0.369636 0.0804618 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0698946 0.423693 -0.0383324 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0775927 0.432198 0.144814 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0184217 0.541711 -0.0864005 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.160165 0.385524 -0.0808046 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.138818 0.539138 0.0905962 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.105232 0.405164 0.2444 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.086116 0.596104 -0.0205702 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.217593 0.58827 0.143511 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0912614 -0.521487 -0.125775 
+   Rad 0.034413 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.051232 0.122788 0.0930063 
+   Rad 0.034413 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.222507 -1.02052 -0.143716 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.285791 -1.05842 -0.0118687 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.265381 -0.974581 0.0520175 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.233205 -1.14032 0.0335639 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.392096 -1.07241 -0.0172175 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.213401 -1.13473 -0.243552 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.182155 -1.10408 -0.34159 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.13888 -1.20501 -0.211534 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.308769 -1.18066 -0.261423 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.314315 -0.920203 -0.210747 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.329868 -0.834767 -0.147689 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.275301 -0.888628 -0.305739 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.413357 -0.951845 -0.237275 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.214702 -1.03915 0.109005 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.248628 -1.17561 0.0504537 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.323496 -1.22888 0.105956 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.275861 -1.17154 -0.0532758 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.160476 -1.23695 0.0468439 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.146563 -1.06647 0.243069 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.129631 -0.970369 0.287853 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.049229 -1.11183 0.244939 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.206377 -1.11555 0.317448 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.342395 -0.968795 0.147995 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.402262 -1.03076 0.212067 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.402475 -0.964019 0.0592211 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.326858 -0.878579 0.20417 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0569236 0.58221 -0.177588 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0825038 0.830625 -0.0483338 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0451288 0.854114 -0.00287461 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.157109 0.93764 -0.0913265 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0939769 0.97772 0.0161107 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.105024 0.768377 0.0192289 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.100644 1.06799 -0.096131 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.257261 0.9167 -0.122313 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0200178 1.08394 -0.0226751 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0558479 1.18368 -0.00928216 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.220801 1.00001 0.0968769 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.288256 0.877084 0.143435 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.223557 0.822138 0.209241 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.3226 0.820095 0.0591228 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.374097 0.891651 0.206173 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.321346 1.06304 0.00558275 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.419746 1.07379 0.0471375 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.324966 1.00457 -0.0844394 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.284922 1.16156 -0.0167054 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.204638 1.0861 0.219382 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.150581 1.17462 0.191944 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.297619 1.10951 0.267864 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.14661 1.04095 0.297599 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.148489 1.18006 -0.192926 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.255396 1.13505 -0.292406 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.214351 1.05904 -0.356244 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.344386 1.09359 -0.248957 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.280924 1.21367 -0.360846 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0217517 1.22151 -0.270202 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0373135 1.29363 -0.216853 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.0577681 1.2827 -0.350729 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center 0.0338855 1.13941 -0.311388 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.201158 1.30113 -0.129708 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.212986 1.3825 -0.198797 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.292194 1.28146 -0.0761904 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.124616 1.32191 -0.0573681 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.140772 0.711816 -0.0591807 
+   Rad 0.034413 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+Sphere 
+  Center -0.239081 0.725611 -0.0494204 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0555858 0.0955741 0.010514
+  Apex -0.0794849 0.139166 -0.00857405
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0555858 0.0955741 0.010514
+  Apex -0.00217688 0.109181 0.0517601
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0555858 0.0955741 0.010514
+  Apex -0.0719486 0.0318946 -0.00674934
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0883113 -0.0317847 -0.0240126
+  Apex -0.0719486 0.0318946 -0.00674934
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0883113 -0.0317847 -0.0240126
+  Apex -0.0535266 -0.0874055 0.00324568
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0883113 -0.0317847 -0.0240126
+  Apex -0.12791 -0.0387463 -0.0590921
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.018742 -0.143026 0.030504
+  Apex 0.0341059 -0.124762 0.0745751
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.018742 -0.143026 0.030504
+  Apex -0.0324183 -0.208129 0.00990524
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.018742 -0.143026 0.030504
+  Apex -0.0535266 -0.0874055 0.00324568
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0869538 -0.106497 0.118646
+  Apex 0.118455 -0.144864 0.138148
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0869538 -0.106497 0.118646
+  Apex 0.0341059 -0.124762 0.0745751
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0869538 -0.106497 0.118646
+  Apex 0.0987608 -0.0444661 0.141729
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.110568 0.0175648 0.164811
+  Apex 0.147892 0.0359707 0.198023
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.110568 0.0175648 0.164811
+  Apex 0.0987608 -0.0444661 0.141729
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.110568 0.0175648 0.164811
+  Apex 0.0808999 0.0701763 0.128909
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.103384 0.182757 -0.0276621
+  Apex -0.0794849 0.139166 -0.00857405
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.167508 -0.045708 -0.0941716
+  Apex -0.12791 -0.0387463 -0.0590921
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.149956 -0.183232 0.157649
+  Apex 0.118455 -0.144864 0.138148
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.185216 0.0543767 0.231235
+  Apex 0.147892 0.0359707 0.198023
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0460947 -0.273232 -0.0106935
+  Apex -0.105645 -0.288873 -0.04421
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0460947 -0.273232 -0.0106935
+  Apex 0.00193491 -0.323354 -0.00767744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0460947 -0.273232 -0.0106935
+  Apex -0.0324183 -0.208129 0.00990524
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.165195 -0.304514 -0.0777264
+  Apex -0.105645 -0.288873 -0.04421
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.165195 -0.304514 -0.0777264
+  Apex -0.177505 -0.366235 -0.101225
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.165195 -0.304514 -0.0777264
+  Apex -0.206513 -0.270949 -0.0810106
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0499645 -0.373477 -0.00466135
+  Apex 0.099468 -0.359317 0.00925253
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0499645 -0.373477 -0.00466135
+  Apex 0.00193491 -0.323354 -0.00767744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0499645 -0.373477 -0.00466135
+  Apex 0.0398666 -0.432838 -0.0341006
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.189816 -0.427956 -0.124723
+  Apex -0.235734 -0.44718 -0.143611
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.189816 -0.427956 -0.124723
+  Apex -0.140538 -0.474722 -0.125249
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.189816 -0.427956 -0.124723
+  Apex -0.177505 -0.366235 -0.101225
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.24783 -0.237384 -0.0842948
+  Apex -0.206513 -0.270949 -0.0810106
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0297687 -0.4922 -0.0635398
+  Apex -0.0307464 -0.506844 -0.0946575
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0297687 -0.4922 -0.0635398
+  Apex 0.0618038 -0.534513 -0.0679237
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0297687 -0.4922 -0.0635398
+  Apex 0.0398666 -0.432838 -0.0341006
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.148972 -0.345156 0.0231664
+  Apex 0.099468 -0.359317 0.00925253
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.281652 -0.466403 -0.162498
+  Apex -0.235734 -0.44718 -0.143611
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0938389 -0.576826 -0.0723076
+  Apex 0.0618038 -0.534513 -0.0679237
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0867629 0.252012 0.144781
+  Apex 0.0789651 0.254302 0.197881
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0867629 0.252012 0.144781
+  Apex 0.0689975 0.1874 0.118893
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0867629 0.252012 0.144781
+  Apex 0.140122 0.254163 0.138522
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0867629 0.252012 0.144781
+  Apex 0.0544485 0.310824 0.112621
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0711672 0.256591 0.250982
+  Apex 0.0789651 0.254302 0.197881
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.193481 0.256315 0.132263
+  Apex 0.140122 0.254163 0.138522
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.106422 -0.65553 -0.184447
+  Apex -0.0851614 -0.649595 -0.23341
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.106422 -0.65553 -0.184447
+  Apex -0.158106 -0.662283 -0.197456
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.106422 -0.65553 -0.184447
+  Apex -0.0841877 -0.713075 -0.150306
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.106422 -0.65553 -0.184447
+  Apex -0.0988416 -0.588509 -0.155111
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.063901 -0.643661 -0.282373
+  Apex -0.0851614 -0.649595 -0.23341
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.20979 -0.669035 -0.210465
+  Apex -0.158106 -0.662283 -0.197456
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0619537 -0.770621 -0.116164
+  Apex -0.104501 -0.801645 -0.0707765
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0619537 -0.770621 -0.116164
+  Apex -0.00580295 -0.80019 -0.139432
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0619537 -0.770621 -0.116164
+  Apex -0.0841877 -0.713075 -0.150306
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0503478 -0.829759 -0.1627
+  Apex -0.00580295 -0.80019 -0.139432
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0503478 -0.829759 -0.1627
+  Apex 0.0808999 -0.80382 -0.197988
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0503478 -0.829759 -0.1627
+  Apex 0.0662655 -0.894566 -0.141847
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.147048 -0.832668 -0.0253886
+  Apex -0.138597 -0.896278 -0.0067799
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.147048 -0.832668 -0.0253886
+  Apex -0.104501 -0.801645 -0.0707765
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.147048 -0.832668 -0.0253886
+  Apex -0.194183 -0.811031 -0.0124215
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0821833 -0.959373 -0.120994
+  Apex 0.035429 -0.987798 -0.0746465
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0821833 -0.959373 -0.120994
+  Apex 0.152345 -0.989947 -0.132355
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0821833 -0.959373 -0.120994
+  Apex 0.0662655 -0.894566 -0.141847
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.111452 -0.77788 -0.233277
+  Apex 0.0808999 -0.80382 -0.197988
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.130147 -0.959888 0.0118288
+  Apex -0.172424 -0.999518 0.0604171
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.130147 -0.959888 0.0118288
+  Apex -0.0707359 -0.988055 -0.00823508
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.130147 -0.959888 0.0118288
+  Apex -0.138597 -0.896278 -0.0067799
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.241318 -0.789394 0.000545688
+  Apex -0.194183 -0.811031 -0.0124215
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0113252 -1.01622 -0.0282989
+  Apex -0.0021768 -1.06615 -0.0115308
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0113252 -1.01622 -0.0282989
+  Apex 0.035429 -0.987798 -0.0746465
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0113252 -1.01622 -0.0282989
+  Apex -0.0707359 -0.988055 -0.00823508
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.00697162 -1.11607 0.00523734
+  Apex -0.0021768 -1.06615 -0.0115308
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.022134 0.369636 0.0804618
+  Apex 0.0460143 0.396664 0.0210647
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.022134 0.369636 0.0804618
+  Apex -0.0277293 0.400916 0.112638
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.022134 0.369636 0.0804618
+  Apex 0.0544485 0.310824 0.112621
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0698946 0.423693 -0.0383324
+  Apex 0.0460143 0.396664 0.0210647
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0698946 0.423693 -0.0383324
+  Apex 0.11503 0.404609 -0.0595685
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0698946 0.423693 -0.0383324
+  Apex 0.0441581 0.482702 -0.0623664
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0775927 0.432198 0.144814
+  Apex -0.0914121 0.418681 0.194607
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0775927 0.432198 0.144814
+  Apex -0.0277293 0.400916 0.112638
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0775927 0.432198 0.144814
+  Apex -0.108205 0.485668 0.117705
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0184217 0.541711 -0.0864005
+  Apex 0.0441581 0.482702 -0.0623664
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0184217 0.541711 -0.0864005
+  Apex -0.0338472 0.568907 -0.0534854
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0184217 0.541711 -0.0864005
+  Apex 0.0376726 0.56196 -0.131994
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.160165 0.385524 -0.0808046
+  Apex 0.11503 0.404609 -0.0595685
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.138818 0.539138 0.0905962
+  Apex -0.178205 0.563704 0.117054
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.138818 0.539138 0.0905962
+  Apex -0.112467 0.567621 0.035013
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.138818 0.539138 0.0905962
+  Apex -0.108205 0.485668 0.117705
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.105232 0.405164 0.2444
+  Apex -0.0914121 0.418681 0.194607
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.086116 0.596104 -0.0205702
+  Apex -0.112467 0.567621 0.035013
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.086116 0.596104 -0.0205702
+  Apex -0.0338472 0.568907 -0.0534854
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.086116 0.596104 -0.0205702
+  Apex -0.113444 0.65396 -0.0398755
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.217593 0.58827 0.143511
+  Apex -0.178205 0.563704 0.117054
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0912614 -0.521487 -0.125775
+  Apex -0.0307464 -0.506844 -0.0946575
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0912614 -0.521487 -0.125775
+  Apex -0.140538 -0.474722 -0.125249
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0912614 -0.521487 -0.125775
+  Apex -0.0988416 -0.588509 -0.155111
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.051232 0.122788 0.0930063
+  Apex 0.0689975 0.1874 0.118893
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.051232 0.122788 0.0930063
+  Apex 0.0808999 0.0701763 0.128909
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.051232 0.122788 0.0930063
+  Apex -0.00217688 0.109181 0.0517601
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.222507 -1.02052 -0.143716
+  Apex 0.254149 -1.03947 -0.0777926
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.222507 -1.02052 -0.143716
+  Apex 0.152345 -0.989947 -0.132355
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.222507 -1.02052 -0.143716
+  Apex 0.268411 -0.970362 -0.177232
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.222507 -1.02052 -0.143716
+  Apex 0.217954 -1.07763 -0.193634
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.285791 -1.05842 -0.0118687
+  Apex 0.275586 -1.0165 0.0200744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.285791 -1.05842 -0.0118687
+  Apex 0.338944 -1.06542 -0.0145431
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.285791 -1.05842 -0.0118687
+  Apex 0.259498 -1.09937 0.0108476
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.285791 -1.05842 -0.0118687
+  Apex 0.254149 -1.03947 -0.0777926
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.265381 -0.974581 0.0520175
+  Apex 0.275586 -1.0165 0.0200744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.233205 -1.14032 0.0335639
+  Apex 0.259498 -1.09937 0.0108476
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.392096 -1.07241 -0.0172175
+  Apex 0.338944 -1.06542 -0.0145431
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.213401 -1.13473 -0.243552
+  Apex 0.17614 -1.16987 -0.227543
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.213401 -1.13473 -0.243552
+  Apex 0.217954 -1.07763 -0.193634
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.213401 -1.13473 -0.243552
+  Apex 0.261085 -1.15769 -0.252487
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.213401 -1.13473 -0.243552
+  Apex 0.197778 -1.11941 -0.292571
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.182155 -1.10408 -0.34159
+  Apex 0.197778 -1.11941 -0.292571
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.13888 -1.20501 -0.211534
+  Apex 0.17614 -1.16987 -0.227543
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.308769 -1.18066 -0.261423
+  Apex 0.261085 -1.15769 -0.252487
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.314315 -0.920203 -0.210747
+  Apex 0.268411 -0.970362 -0.177232
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.314315 -0.920203 -0.210747
+  Apex 0.363836 -0.936024 -0.224011
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.314315 -0.920203 -0.210747
+  Apex 0.322092 -0.877485 -0.179218
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.314315 -0.920203 -0.210747
+  Apex 0.294808 -0.904416 -0.258243
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.329868 -0.834767 -0.147689
+  Apex 0.322092 -0.877485 -0.179218
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.275301 -0.888628 -0.305739
+  Apex 0.294808 -0.904416 -0.258243
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.413357 -0.951845 -0.237275
+  Apex 0.363836 -0.936024 -0.224011
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.214702 -1.03915 0.109005
+  Apex -0.278548 -1.00397 0.1285
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.214702 -1.03915 0.109005
+  Apex -0.231665 -1.10738 0.0797295
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.214702 -1.03915 0.109005
+  Apex -0.172424 -0.999518 0.0604171
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.214702 -1.03915 0.109005
+  Apex -0.180633 -1.05281 0.176037
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.248628 -1.17561 0.0504537
+  Apex -0.204552 -1.20628 0.0486488
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.248628 -1.17561 0.0504537
+  Apex -0.262244 -1.17357 -0.00141102
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.248628 -1.17561 0.0504537
+  Apex -0.231665 -1.10738 0.0797295
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.248628 -1.17561 0.0504537
+  Apex -0.286062 -1.20224 0.0782048
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.323496 -1.22888 0.105956
+  Apex -0.286062 -1.20224 0.0782048
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.275861 -1.17154 -0.0532758
+  Apex -0.262244 -1.17357 -0.00141102
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.160476 -1.23695 0.0468439
+  Apex -0.204552 -1.20628 0.0486488
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.146563 -1.06647 0.243069
+  Apex -0.17647 -1.09101 0.280259
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.146563 -1.06647 0.243069
+  Apex -0.0978962 -1.08915 0.244004
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.146563 -1.06647 0.243069
+  Apex -0.180633 -1.05281 0.176037
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.146563 -1.06647 0.243069
+  Apex -0.138097 -1.01842 0.265461
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.129631 -0.970369 0.287853
+  Apex -0.138097 -1.01842 0.265461
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.049229 -1.11183 0.244939
+  Apex -0.0978962 -1.08915 0.244004
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.206377 -1.11555 0.317448
+  Apex -0.17647 -1.09101 0.280259
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.342395 -0.968795 0.147995
+  Apex -0.334626 -0.923687 0.176083
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.342395 -0.968795 0.147995
+  Apex -0.372329 -0.999779 0.180031
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.342395 -0.968795 0.147995
+  Apex -0.372435 -0.966407 0.103608
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.342395 -0.968795 0.147995
+  Apex -0.278548 -1.00397 0.1285
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.402262 -1.03076 0.212067
+  Apex -0.372329 -0.999779 0.180031
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.402475 -0.964019 0.0592211
+  Apex -0.372435 -0.966407 0.103608
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.326858 -0.878579 0.20417
+  Apex -0.334626 -0.923687 0.176083
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0569236 0.58221 -0.177588
+  Apex 0.0376726 0.56196 -0.131994
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0825038 0.830625 -0.0483338
+  Apex -0.0186875 0.84237 -0.0256042
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0825038 0.830625 -0.0483338
+  Apex -0.111638 0.771221 -0.0537573
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0825038 0.830625 -0.0483338
+  Apex -0.119807 0.884132 -0.0698301
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0451288 0.854114 -0.00287461
+  Apex 0.0695528 0.915917 0.00661805
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0451288 0.854114 -0.00287461
+  Apex 0.0750763 0.811245 0.00817714
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0451288 0.854114 -0.00287461
+  Apex -0.0186875 0.84237 -0.0256042
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.157109 0.93764 -0.0913265
+  Apex -0.207185 0.92717 -0.10682
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.157109 0.93764 -0.0913265
+  Apex -0.119807 0.884132 -0.0698301
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.157109 0.93764 -0.0913265
+  Apex -0.128876 1.00282 -0.0937287
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0939769 0.97772 0.0161107
+  Apex 0.0695528 0.915917 0.00661805
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0939769 0.97772 0.0161107
+  Apex 0.0569973 1.03083 -0.0032822
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0939769 0.97772 0.0161107
+  Apex 0.157389 0.988863 0.0564938
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.105024 0.768377 0.0192289
+  Apex 0.0750763 0.811245 0.00817714
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.100644 1.06799 -0.096131
+  Apex -0.128876 1.00282 -0.0937287
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.100644 1.06799 -0.096131
+  Apex -0.0403129 1.07597 -0.0594031
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.100644 1.06799 -0.096131
+  Apex -0.124566 1.12403 -0.144529
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.257261 0.9167 -0.122313
+  Apex -0.207185 0.92717 -0.10682
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0200178 1.08394 -0.0226751
+  Apex 0.0569973 1.03083 -0.0032822
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0200178 1.08394 -0.0226751
+  Apex 0.0379328 1.13381 -0.0159786
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0200178 1.08394 -0.0226751
+  Apex -0.0403129 1.07597 -0.0594031
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0558479 1.18368 -0.00928216
+  Apex 0.0379328 1.13381 -0.0159786
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.220801 1.00001 0.0968769
+  Apex 0.21272 1.04305 0.158129
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.220801 1.00001 0.0968769
+  Apex 0.254529 0.938545 0.120156
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.220801 1.00001 0.0968769
+  Apex 0.157389 0.988863 0.0564938
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.220801 1.00001 0.0968769
+  Apex 0.271073 1.03152 0.0512298
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.288256 0.877084 0.143435
+  Apex 0.331176 0.884368 0.174804
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.288256 0.877084 0.143435
+  Apex 0.305428 0.84859 0.101279
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.288256 0.877084 0.143435
+  Apex 0.255906 0.849611 0.176338
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.288256 0.877084 0.143435
+  Apex 0.254529 0.938545 0.120156
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.223557 0.822138 0.209241
+  Apex 0.255906 0.849611 0.176338
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.3226 0.820095 0.0591228
+  Apex 0.305428 0.84859 0.101279
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.374097 0.891651 0.206173
+  Apex 0.331176 0.884368 0.174804
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.321346 1.06304 0.00558275
+  Apex 0.370546 1.06842 0.0263601
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.321346 1.06304 0.00558275
+  Apex 0.303134 1.1123 -0.00556134
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.321346 1.06304 0.00558275
+  Apex 0.323156 1.03381 -0.0394283
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.321346 1.06304 0.00558275
+  Apex 0.271073 1.03152 0.0512298
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.419746 1.07379 0.0471375
+  Apex 0.370546 1.06842 0.0263601
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.324966 1.00457 -0.0844394
+  Apex 0.323156 1.03381 -0.0394283
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.284922 1.16156 -0.0167054
+  Apex 0.303134 1.1123 -0.00556134
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.204638 1.0861 0.219382
+  Apex 0.17761 1.13036 0.205663
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.204638 1.0861 0.219382
+  Apex 0.175624 1.06352 0.258491
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.204638 1.0861 0.219382
+  Apex 0.21272 1.04305 0.158129
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.204638 1.0861 0.219382
+  Apex 0.251129 1.0978 0.243623
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.150581 1.17462 0.191944
+  Apex 0.17761 1.13036 0.205663
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.297619 1.10951 0.267864
+  Apex 0.251129 1.0978 0.243623
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.14661 1.04095 0.297599
+  Apex 0.175624 1.06352 0.258491
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.148489 1.18006 -0.192926
+  Apex -0.201943 1.15756 -0.242666
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.148489 1.18006 -0.192926
+  Apex -0.0851206 1.20078 -0.231564
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.148489 1.18006 -0.192926
+  Apex -0.174824 1.24059 -0.161317
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.148489 1.18006 -0.192926
+  Apex -0.124566 1.12403 -0.144529
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.255396 1.13505 -0.292406
+  Apex -0.299891 1.11432 -0.270682
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.255396 1.13505 -0.292406
+  Apex -0.201943 1.15756 -0.242666
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.255396 1.13505 -0.292406
+  Apex -0.234874 1.09705 -0.324325
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.255396 1.13505 -0.292406
+  Apex -0.26816 1.17436 -0.326626
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.214351 1.05904 -0.356244
+  Apex -0.234874 1.09705 -0.324325
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.344386 1.09359 -0.248957
+  Apex -0.299891 1.11432 -0.270682
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.280924 1.21367 -0.360846
+  Apex -0.26816 1.17436 -0.326626
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0217517 1.22151 -0.270202
+  Apex -0.0851206 1.20078 -0.231564
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0217517 1.22151 -0.270202
+  Apex 0.0060669 1.18046 -0.290795
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0217517 1.22151 -0.270202
+  Apex 0.00778089 1.25757 -0.243528
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0217517 1.22151 -0.270202
+  Apex -0.0397599 1.25211 -0.310466
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0373135 1.29363 -0.216853
+  Apex 0.00778089 1.25757 -0.243528
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.0577681 1.2827 -0.350729
+  Apex -0.0397599 1.25211 -0.310466
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base 0.0338855 1.13941 -0.311388
+  Apex 0.0060669 1.18046 -0.290795
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.201158 1.30113 -0.129708
+  Apex -0.207072 1.34181 -0.164252
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.201158 1.30113 -0.129708
+  Apex -0.174824 1.24059 -0.161317
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.201158 1.30113 -0.129708
+  Apex -0.246676 1.2913 -0.102949
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.201158 1.30113 -0.129708
+  Apex -0.162887 1.31152 -0.0935379
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.212986 1.3825 -0.198797
+  Apex -0.207072 1.34181 -0.164252
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.292194 1.28146 -0.0761904
+  Apex -0.246676 1.2913 -0.102949
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.124616 1.32191 -0.0573681
+  Apex -0.162887 1.31152 -0.0935379
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.140772 0.711816 -0.0591807
+  Apex -0.113444 0.65396 -0.0398755
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.140772 0.711816 -0.0591807
+  Apex -0.189926 0.718714 -0.0543006
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.140772 0.711816 -0.0591807
+  Apex -0.111638 0.771221 -0.0537573
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+FCylinder
+  Base -0.239081 0.725611 -0.0494204
+  Apex -0.189926 0.718714 -0.0543006
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 1 0 0 TexFunc 0
+
+# MoleculeID: 0 ReprID: 1 Beginning CPK
+# MoleculeID: 0 ReprID: 1 Beginning VDW
+Sphere 
+  Center -0.317867 0.349511 -0.14111 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.22402 0.336859 -0.235579 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.215087 0.442185 -0.325888 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.279978 0.561352 -0.316962 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.386071 0.566704 -0.22567 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.401183 0.460494 -0.139494 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.15336 0.428385 -0.412057 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.259478 0.635858 -0.390805 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.453037 0.649543 -0.216544 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.473745 0.469769 -0.0615809 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.161665 0.215111 -0.253824 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.347584 0.237343 -0.0577437 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.0884052 0.183055 -0.372438 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.155089 0.178315 -0.456686 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.0249878 0.264954 -0.400911 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.410812 0.255405 0.0709461 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.358588 0.33394 0.122499 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.512217 0.289875 0.0621246 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.398631 0.124013 0.142296 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.404004 0.0390823 0.076713 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.473345 0.113089 0.21878 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.0231627 0.0489052 -0.376145 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.0922644 -0.0306136 -0.355132 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.00490166 0.0370241 -0.47923 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.0963067 0.0433888 -0.288503 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.26815 0.127052 0.214339 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.24859 0.00496711 0.283277 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.336214 -0.0143473 0.342415 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.243895 -0.0662138 0.202852 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.122462 0.00563281 0.372142 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.165836 0.0322277 0.466842 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.0576954 0.0869299 0.344587 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.167071 -0.0805069 -0.284066 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.19586 -0.110455 -0.383217 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.099974 -0.149034 -0.235454 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.287009 -0.0669454 -0.188283 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.365829 -0.0259168 -0.248766 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.263486 0.00156582 -0.108897 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.315309 -0.20162 -0.140631 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.067286 -0.125731 0.379345 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.050777 -0.15139 0.458769 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.0287914 -0.113147 0.556776 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.135988 -0.094984 0.42566 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.0833349 -0.29639 0.462603 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.135324 -0.319012 0.553938 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center -0.00094451 -0.36284 0.457454 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.420601 -0.211913 -0.0455295 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.50987 -0.202802 -0.104707 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.413145 -0.130988 0.0247807 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.418234 -0.351403 0.0226725 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.518978 -0.383745 0.0414143 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.177279 -0.321137 0.357956 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.23587 -0.443539 0.333875 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.188275 -0.550255 0.399622 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.315259 -0.460947 0.221411 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.227461 -0.678969 0.357838 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.119889 -0.544334 0.48156 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.360723 -0.588917 0.19023 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.323113 -0.695255 0.262661 
+   Rad 0.036871 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.191306 -0.769496 0.401645 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.42957 -0.600595 0.109234 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.351971 -0.794465 0.235065 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.377204 -0.427698 -0.040967 
+   Rad 0.0245807 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+Sphere 
+  Center 0.34759 -0.354004 0.150029 
+   Rad 0.0319549 
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.317867 0.349511 -0.14111
+  Apex -0.270944 0.343185 -0.188345
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.317867 0.349511 -0.14111
+  Apex -0.332726 0.293427 -0.0994271
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.317867 0.349511 -0.14111
+  Apex -0.359525 0.405002 -0.140302
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.22402 0.336859 -0.235579
+  Apex -0.270944 0.343185 -0.188345
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.22402 0.336859 -0.235579
+  Apex -0.219554 0.389522 -0.280733
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.22402 0.336859 -0.235579
+  Apex -0.192842 0.275985 -0.244701
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.215087 0.442185 -0.325888
+  Apex -0.247533 0.501768 -0.321425
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.215087 0.442185 -0.325888
+  Apex -0.184224 0.435285 -0.368973
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.215087 0.442185 -0.325888
+  Apex -0.219554 0.389522 -0.280733
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.279978 0.561352 -0.316962
+  Apex -0.333024 0.564028 -0.271316
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.279978 0.561352 -0.316962
+  Apex -0.247533 0.501768 -0.321425
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.279978 0.561352 -0.316962
+  Apex -0.269728 0.598605 -0.353884
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.386071 0.566704 -0.22567
+  Apex -0.419554 0.608123 -0.221107
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.386071 0.566704 -0.22567
+  Apex -0.333024 0.564028 -0.271316
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.386071 0.566704 -0.22567
+  Apex -0.393627 0.513599 -0.182582
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.401183 0.460494 -0.139494
+  Apex -0.393627 0.513599 -0.182582
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.401183 0.460494 -0.139494
+  Apex -0.437464 0.465131 -0.100538
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.401183 0.460494 -0.139494
+  Apex -0.359525 0.405002 -0.140302
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.15336 0.428385 -0.412057
+  Apex -0.184224 0.435285 -0.368973
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.259478 0.635858 -0.390805
+  Apex -0.269728 0.598605 -0.353884
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.453037 0.649543 -0.216544
+  Apex -0.419554 0.608123 -0.221107
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.473745 0.469769 -0.0615809
+  Apex -0.437464 0.465131 -0.100538
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.161665 0.215111 -0.253824
+  Apex -0.192842 0.275985 -0.244701
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.161665 0.215111 -0.253824
+  Apex -0.125035 0.199083 -0.313131
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.347584 0.237343 -0.0577437
+  Apex -0.332726 0.293427 -0.0994271
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.347584 0.237343 -0.0577437
+  Apex -0.379198 0.246374 0.00660119
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0884052 0.183055 -0.372438
+  Apex -0.125035 0.199083 -0.313131
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0884052 0.183055 -0.372438
+  Apex -0.0557839 0.11598 -0.374291
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0884052 0.183055 -0.372438
+  Apex -0.0566965 0.224005 -0.386674
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0884052 0.183055 -0.372438
+  Apex -0.121747 0.180685 -0.414562
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.155089 0.178315 -0.456686
+  Apex -0.121747 0.180685 -0.414562
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0249878 0.264954 -0.400911
+  Apex -0.0566965 0.224005 -0.386674
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.410812 0.255405 0.0709461
+  Apex -0.3847 0.294672 0.0967226
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.410812 0.255405 0.0709461
+  Apex -0.404721 0.189709 0.106621
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.410812 0.255405 0.0709461
+  Apex -0.379198 0.246374 0.00660119
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.410812 0.255405 0.0709461
+  Apex -0.461514 0.27264 0.0665354
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.358588 0.33394 0.122499
+  Apex -0.3847 0.294672 0.0967226
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.512217 0.289875 0.0621246
+  Apex -0.461514 0.27264 0.0665354
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.398631 0.124013 0.142296
+  Apex -0.33339 0.125533 0.178318
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.398631 0.124013 0.142296
+  Apex -0.435988 0.118551 0.180538
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.398631 0.124013 0.142296
+  Apex -0.401317 0.0815478 0.109505
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.398631 0.124013 0.142296
+  Apex -0.404721 0.189709 0.106621
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.404004 0.0390823 0.076713
+  Apex -0.401317 0.0815478 0.109505
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.473345 0.113089 0.21878
+  Apex -0.435988 0.118551 0.180538
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0231627 0.0489052 -0.376145
+  Apex 0.036572 0.046147 -0.332324
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0231627 0.0489052 -0.376145
+  Apex -0.0577135 0.00914574 -0.365639
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0231627 0.0489052 -0.376145
+  Apex -0.0091305 0.0429646 -0.427687
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0231627 0.0489052 -0.376145
+  Apex -0.0557839 0.11598 -0.374291
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0922644 -0.0306136 -0.355132
+  Apex -0.0577135 0.00914574 -0.365639
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.00490166 0.0370241 -0.47923
+  Apex -0.0091305 0.0429646 -0.427687
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.0963067 0.0433888 -0.288503
+  Apex 0.131689 -0.0185591 -0.286284
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.0963067 0.0433888 -0.288503
+  Apex 0.036572 0.046147 -0.332324
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.26815 0.127052 0.214339
+  Apex -0.25837 0.0660098 0.248808
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.26815 0.127052 0.214339
+  Apex -0.33339 0.125533 0.178318
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.24859 0.00496711 0.283277
+  Apex -0.185526 0.0052999 0.32771
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.24859 0.00496711 0.283277
+  Apex -0.292402 -0.0046901 0.312846
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.24859 0.00496711 0.283277
+  Apex -0.246242 -0.0306233 0.243065
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.24859 0.00496711 0.283277
+  Apex -0.25837 0.0660098 0.248808
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.336214 -0.0143473 0.342415
+  Apex -0.292402 -0.0046901 0.312846
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.243895 -0.0662138 0.202852
+  Apex -0.246242 -0.0306233 0.243065
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.122462 0.00563281 0.372142
+  Apex -0.144149 0.0189302 0.419492
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.122462 0.00563281 0.372142
+  Apex -0.185526 0.0052999 0.32771
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.122462 0.00563281 0.372142
+  Apex -0.0948742 -0.0600489 0.375744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.122462 0.00563281 0.372142
+  Apex -0.0900789 0.0462814 0.358364
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.165836 0.0322277 0.466842
+  Apex -0.144149 0.0189302 0.419492
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.0576954 0.0869299 0.344587
+  Apex -0.0900789 0.0462814 0.358364
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.167071 -0.0805069 -0.284066
+  Apex 0.22704 -0.0737262 -0.236174
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.167071 -0.0805069 -0.284066
+  Apex 0.181466 -0.0954809 -0.333641
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.167071 -0.0805069 -0.284066
+  Apex 0.133523 -0.11477 -0.25976
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.167071 -0.0805069 -0.284066
+  Apex 0.131689 -0.0185591 -0.286284
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.19586 -0.110455 -0.383217
+  Apex 0.181466 -0.0954809 -0.333641
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.099974 -0.149034 -0.235454
+  Apex 0.133523 -0.11477 -0.25976
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.287009 -0.0669454 -0.188283
+  Apex 0.275248 -0.0326897 -0.14859
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.287009 -0.0669454 -0.188283
+  Apex 0.326419 -0.0464311 -0.218524
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.287009 -0.0669454 -0.188283
+  Apex 0.301159 -0.134283 -0.164457
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.287009 -0.0669454 -0.188283
+  Apex 0.22704 -0.0737262 -0.236174
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.365829 -0.0259168 -0.248766
+  Apex 0.326419 -0.0464311 -0.218524
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.263486 0.00156582 -0.108897
+  Apex 0.275248 -0.0326897 -0.14859
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.315309 -0.20162 -0.140631
+  Apex 0.301159 -0.134283 -0.164457
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.315309 -0.20162 -0.140631
+  Apex 0.367955 -0.206767 -0.09308
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.067286 -0.125731 0.379345
+  Apex -0.0948742 -0.0600489 0.375744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.067286 -0.125731 0.379345
+  Apex -0.00825451 -0.13856 0.419057
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.050777 -0.15139 0.458769
+  Apex 0.0670559 -0.22389 0.460686
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.050777 -0.15139 0.458769
+  Apex -0.00825451 -0.13856 0.419057
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.050777 -0.15139 0.458769
+  Apex 0.0397842 -0.132269 0.507772
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.050777 -0.15139 0.458769
+  Apex 0.0933827 -0.123187 0.442214
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.0287914 -0.113147 0.556776
+  Apex 0.0397842 -0.132269 0.507772
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.135988 -0.094984 0.42566
+  Apex 0.0933827 -0.123187 0.442214
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.0833349 -0.29639 0.462603
+  Apex 0.109329 -0.307701 0.50827
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.0833349 -0.29639 0.462603
+  Apex 0.0411952 -0.329615 0.460029
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.0833349 -0.29639 0.462603
+  Apex 0.130307 -0.308764 0.41028
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.0833349 -0.29639 0.462603
+  Apex 0.0670559 -0.22389 0.460686
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.135324 -0.319012 0.553938
+  Apex 0.109329 -0.307701 0.50827
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base -0.00094451 -0.36284 0.457454
+  Apex 0.0411952 -0.329615 0.460029
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.420601 -0.211913 -0.0455295
+  Apex 0.465236 -0.207358 -0.0751185
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.420601 -0.211913 -0.0455295
+  Apex 0.419417 -0.281658 -0.0114285
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.420601 -0.211913 -0.0455295
+  Apex 0.367955 -0.206767 -0.09308
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.420601 -0.211913 -0.0455295
+  Apex 0.416873 -0.17145 -0.0103744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.50987 -0.202802 -0.104707
+  Apex 0.465236 -0.207358 -0.0751185
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.413145 -0.130988 0.0247807
+  Apex 0.416873 -0.17145 -0.0103744
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.418234 -0.351403 0.0226725
+  Apex 0.382912 -0.352703 0.086351
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.418234 -0.351403 0.0226725
+  Apex 0.468606 -0.367574 0.0320434
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.418234 -0.351403 0.0226725
+  Apex 0.419417 -0.281658 -0.0114285
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.418234 -0.351403 0.0226725
+  Apex 0.397719 -0.38955 -0.00914726
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.518978 -0.383745 0.0414143
+  Apex 0.468606 -0.367574 0.0320434
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.177279 -0.321137 0.357956
+  Apex 0.130307 -0.308764 0.41028
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.177279 -0.321137 0.357956
+  Apex 0.206575 -0.382338 0.345915
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.23587 -0.443539 0.333875
+  Apex 0.212072 -0.496897 0.366748
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.23587 -0.443539 0.333875
+  Apex 0.275564 -0.452243 0.277643
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.23587 -0.443539 0.333875
+  Apex 0.206575 -0.382338 0.345915
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.188275 -0.550255 0.399622
+  Apex 0.154082 -0.547295 0.440591
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.188275 -0.550255 0.399622
+  Apex 0.212072 -0.496897 0.366748
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.188275 -0.550255 0.399622
+  Apex 0.207868 -0.614612 0.37873
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.315259 -0.460947 0.221411
+  Apex 0.337991 -0.524932 0.205821
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.315259 -0.460947 0.221411
+  Apex 0.331424 -0.407475 0.18572
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.315259 -0.460947 0.221411
+  Apex 0.275564 -0.452243 0.277643
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.227461 -0.678969 0.357838
+  Apex 0.209384 -0.724233 0.379742
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.227461 -0.678969 0.357838
+  Apex 0.275287 -0.687112 0.310249
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.227461 -0.678969 0.357838
+  Apex 0.207868 -0.614612 0.37873
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.119889 -0.544334 0.48156
+  Apex 0.154082 -0.547295 0.440591
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.360723 -0.588917 0.19023
+  Apex 0.337991 -0.524932 0.205821
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.360723 -0.588917 0.19023
+  Apex 0.395147 -0.594756 0.149732
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.360723 -0.588917 0.19023
+  Apex 0.341918 -0.642086 0.226446
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.323113 -0.695255 0.262661
+  Apex 0.275287 -0.687112 0.310249
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.323113 -0.695255 0.262661
+  Apex 0.337542 -0.74486 0.248863
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.323113 -0.695255 0.262661
+  Apex 0.341918 -0.642086 0.226446
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.191306 -0.769496 0.401645
+  Apex 0.209384 -0.724233 0.379742
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.42957 -0.600595 0.109234
+  Apex 0.395147 -0.594756 0.149732
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.351971 -0.794465 0.235065
+  Apex 0.337542 -0.74486 0.248863
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.377204 -0.427698 -0.040967
+  Apex 0.397719 -0.38955 -0.00914726
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.34759 -0.354004 0.150029
+  Apex 0.331424 -0.407475 0.18572
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+FCylinder
+  Base 0.34759 -0.354004 0.150029
+  Apex 0.382912 -0.352703 0.086351
+  Rad 0.00737421
+Texture
+  Ambient 0 Diffuse 0.65 Specular 0 Opacity 1
+  Phong Plastic 0.5 Phong_size 39.9945 Color 0 0 1 TexFunc 0
+
+End_Scene 

@@ -1,12 +1,15 @@
-#PBS -l walltime=60:00:00
-#PBS -l nodes=1:ppn=8
-#PBS -N diala
-#PBS -o std.out
-#PBS -q qwork
-#PBS -j oe
+#!/bin/bash
+#SBATCH --account=rrg-crowley-ac
+#SBATCH --output std.out
+#SBATCH --mem-per-cpu=1024M 
+#SBATCH --mail-type=ALL
+#SBATCH --job-name=diala
+#SBATCH --ntasks=8
+#SBATCH --nodes=1
+#SBATCH --time=3:00:00
 
-cd $PBS_O_WORKDIR
+module load nixpkgs/16.09  intel/2016.4  cuda/8.0.44
+module load namd-verbs-smp/2.12
 
-module load namd
 namd2 +p8 diala.namd > diala.out
 

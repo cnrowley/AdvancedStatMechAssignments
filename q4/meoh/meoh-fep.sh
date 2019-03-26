@@ -1,13 +1,14 @@
-#PBS -l walltime=60:00:00
-#PBS -l nodes=1:ppn=8
-#PBS -N meoh-fep
-#PBS -o std.out
-#PBS -q qwork
-#PBS -j oe
+#!/bin/bash
+#SBATCH --account=rrg-crowley-ac
+#SBATCH --output std.out
+#SBATCH --mem-per-cpu=1024M 
+#SBATCH --job-name=fep
+#SBATCH --ntasks=8
+#SBATCH --nodes=1
+#SBATCH --time=24:00:00
 
-cd $PBS_O_WORKDIR
-
-module load namd
+module load nixpkgs/16.09  intel/2016.4  cuda/8.0.44
+module load namd-verbs-smp/2.12
 
 namd2 +p8 fep.conf > fep.out
 

@@ -3,7 +3,7 @@
 #SBATCH --output std.out
 #SBATCH --mem-per-cpu=1024M 
 #SBATCH --mail-type=ALL
-#SBATCH --job-name=methane
+#SBATCH --job-name=ethyne-dimer
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --time=3:00:00

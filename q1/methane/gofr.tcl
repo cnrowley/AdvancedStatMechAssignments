@@ -1,5 +1,5 @@
 set psf methane.psf
-set dcd methane.out.dcd
+set dcd methane.dcd
 
 #set firstframe ****enter first frame here****
 set firstframe 0
@@ -9,7 +9,7 @@ set outfile1 [open gofr.dat w]
 
 set sel1 [atomselect top "name C"]
 set sel2 [atomselect top "name C"]
-set gr0 [measure gofr $sel1 $sel2 delta 0.1 rmax 6.0 usepbc 1 selupdate 1 first $firstframe last -1 step 1]
+set gr0 [measure gofr $sel1 $sel2 delta 0.05 rmax 12.0 usepbc 1 selupdate 1 first $firstframe last -1 step 1]
 set r [lindex $gr0 0]
 set gr [lindex $gr0 1]
 set igr [lindex $gr0 2]

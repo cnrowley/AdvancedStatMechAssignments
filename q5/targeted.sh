@@ -8,7 +8,7 @@
 #SBATCH --nodes=1
 #SBATCH --time=3:00:00
 
-module load nixpkgs/16.09  intel/2016.4  cuda/8.0.44
-module load namd-verbs-smp/2.12
+module purge
+module load namd-multicore/2.13
 
 namd2 +p8 tip4p-methanol-targeted.conf > tip4p-methanol-targeted.out

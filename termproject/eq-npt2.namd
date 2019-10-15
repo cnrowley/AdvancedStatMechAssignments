@@ -1,0 +1,76 @@
+coordinates             eq-npt1.restart.coor
+extendedSystem          eq-npt1.restart.xsc
+structure               moleculefill.psf
+parameters              mol.prm
+paratypecharmm          on
+
+# output
+set output              eq-npt2
+
+# output
+outputname              $output
+
+
+binaryoutput            no
+binaryrestart           no
+outputEnergies          100
+restartfreq             1000
+
+fixedAtoms off 
+rigidbonds all
+
+# Basic dynamics
+exclude                 scaled1-4
+1-4scaling              1
+COMmotion               no
+dielectric              1.0
+
+# Simulation space partitioning
+switching               on
+switchdist              9
+cutoff                  10
+pairlistdist            12
+
+# Multiple timestepping
+firsttimestep           0
+timestep                1
+stepspercycle           20
+nonbondedFreq           2
+fullElectFrequency      4
+
+# Temperature control
+
+set temperature         298
+temperature             $temperature;  # initial temperature
+
+# Langevin Dynamics
+langevin                on;            # do langevin dynamics
+langevinDamping         1;              # damping coefficient (gamma) of 1/ps
+langevinTemp            $temperature;   # bath temperature
+langevinHydrogen        no;             # don't couple langevin bath to hydrogens
+seed                    12345
+
+dcdfile                 ${output}.dcd
+xstFile                 ${output}.xst
+dcdfreq                 1000
+xstFreq                 1000
+
+# Pressure control
+langevinPiston          on
+langevinPistonTarget    1.01325; # in bar -> 1.01325 bar = 1 atm
+langevinPistonPeriod    2000
+langevinPistonDecay     100
+langevinPistonTemp      $temperature
+useFlexibleCell         no
+useGroupPressure        no
+fixedAtomsForces        off
+
+# PBC
+wrapAll                 on
+PME                     yes
+PMEGridSpacing          1.0
+
+# Scripting
+reinitvels          $temperature
+run                 1000000
+

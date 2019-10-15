@@ -1,0 +1,60 @@
+# input
+coordinates             mini.coor
+extendedSystem          moleculefill.xsc
+structure               moleculefill.psf
+parameters              mol.prm
+paratypecharmm          on
+
+# output
+set output              eq-nvt
+outputname              $output
+
+binaryoutput            no
+binaryrestart           no
+outputEnergies          100
+restartfreq             1000
+
+fixedAtoms off 
+rigidbonds all
+
+# Basic dynamics
+exclude                 scaled1-4
+1-4scaling              1
+COMmotion               no
+dielectric              1.0
+
+# Simulation space partitioning
+switching               on
+switchdist              9
+cutoff                  10
+pairlistdist            12
+
+# Multiple timestepping
+firsttimestep           0
+timestep                1
+stepspercycle           20
+nonbondedFreq           2
+fullElectFrequency      4
+
+# Temperature control
+
+set temperature         298
+temperature             $temperature;  # initial temperature
+
+# Langevin Dynamics
+langevin                on;            # do langevin dynamics
+langevinDamping         1;              # damping coefficient (gamma) of 1/ps
+langevinTemp            $temperature;   # bath temperature
+langevinHydrogen        no;             # don't couple langevin bath to hydrogens
+seed                    12345
+
+
+# PBC
+wrapAll                 on
+PME                     yes
+PMEGridSpacing          1.0
+
+# Scripting
+
+run                 100000
+

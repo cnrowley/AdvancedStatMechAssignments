@@ -1,0 +1,18 @@
+* TIP4P-FB WATER PARAMETER FILE
+*
+BOND
+HT   OT     450.0       0.9572 ! from TIP4P-FB geometry
+HT   HT       0.0       1.5139 ! from TIP4-FBP geometry (for SHAKE w/PARAM)
+LP   OT     450.0       0.102957 ! from TIP4P-FB geometry
+
+ANGLES
+HT   OT   HT      55.0     104.52    ! FROM TIP4PFB GEOMETRY
+HT   OT   LP      50.0      52.26
+
+NONBONDED
+HT       0.0000     0.0000    0.0000
+OT       0.0000    -0.1790    1.7766 
+LP       0.0000     0.0000    0.0000 ! TIP4P-FB lone pair
+
+END
+

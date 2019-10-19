@@ -11,5 +11,6 @@
 module purge
 module load namd-multicore/2.13
 
+namd2 +p8 eq_long.conf > eq_long.out
 namd2 +p16 prod_long.conf > prod_long.out
 

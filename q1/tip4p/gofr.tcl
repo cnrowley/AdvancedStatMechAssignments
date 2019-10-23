@@ -1,5 +1,5 @@
-set psf tip4p.psf
-set dcd tip4p.out.dcd
+set psf tip4p-fb.psf
+set dcd tip4p-fb.dcd
 
 mol load psf $psf dcd $dcd
 set outfile1 [open gofr.dat w]

@@ -13,9 +13,6 @@ xstFile                 ${output}.xst
 dcdfreq                 10000
 xstFreq                 10000
 
-
-temperature 298.15
-
 binaryoutput            no
 binaryrestart           no
 outputEnergies          100

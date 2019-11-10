@@ -1,0 +1,28 @@
+NVT long simulation
+ &cntrl
+  ntpr   = 25000,    ntwx   = 25000,
+  irest = 1,
+  ntwr   = 25000,
+  iwrap=1,
+  ntx=5,
+  ntf    = 2,
+  ntc    = 2,       cut    = 10.0,
+  nstlim = 125000000,
+  dt     = 0.004,
+  ! Wrap coordinates when printing them to the same unit cell
+  iwrap=0,
+  nscm   = 1000,
+  temp0  = 300.0, tempi = 300.0,
+  ntt    = 3, gamma_ln = 1.0, tol=0.000001,
+  ig=-1,
+  ntxo=2,        ! Write NetCDF format
+  ioutfm=1,      ! Write NetCDF format (always do this!)
+    watnam='WAT',  ! Water residues are named WAT
+    owtnm='O',     ! Water oxygens are named O
+
+/
+
+ &ewald
+    vdwmeth = 0,
+   dsum_tol=0.000001,
+ /

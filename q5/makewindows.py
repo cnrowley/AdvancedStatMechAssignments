@@ -19,7 +19,7 @@ module load namd-multicore/2.13
 
     for l in pbslines:
         p.stdin.write(l)
-    p.stdin.write('#SLURM -N ' + w + '\n')
+    p.stdin.write('#SBATCH -N ' + w + '\n\n')
     p.stdin.write('cd ' + cwd + '/' + w + '\n')
     
     p.stdin.write('namd2 +p8 tip4p-methanol-umb-eq.conf >& tip4p-methanol-umb-eq.out\n')

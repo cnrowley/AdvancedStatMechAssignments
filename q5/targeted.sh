@@ -6,7 +6,7 @@
 #SBATCH --job-name=targeted
 #SBATCH --ntasks=8
 #SBATCH --nodes=1
-#SBATCH --time=3:00:00
+#SBATCH --time=12:00:00
 
 module purge
 module load namd-multicore/2.13

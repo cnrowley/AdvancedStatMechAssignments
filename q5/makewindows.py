@@ -105,4 +105,4 @@ for i in range(0, 35):
     tclOutput.close()
     
     sub(cwd, 'window_' + str(i))
-    print()
+    print("")

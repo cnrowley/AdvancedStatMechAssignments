@@ -1,0 +1,60 @@
+# input
+coordinates             molecule.pdb
+structure               molecule.psf
+parameters              molecule.prm
+paratypecharmm          on
+
+# output
+set output              onemolecule
+outputname              $output
+
+binaryrestart           no
+outputEnergies          100
+restartfreq             1000
+
+fixedAtoms              off
+
+# Basic dynamics
+exclude                 scaled1-4
+1-4scaling              1
+COMmotion               no
+dielectric              1.0
+
+# Simulation space partitioning
+switching               on
+switchdist              9
+cutoff                  10
+pairlistdist            12
+
+# Multiple timestepping
+firsttimestep           0
+timestep                1
+stepspercycle           20
+nonbondedFreq           2
+fullElectFrequency      4
+
+cellBasisVector1 32.0 0.0 0.0
+cellBasisVector2 0.0 32.0 0.0
+cellBasisVector3 0.0  0.0 32.0
+cellOrigin       0.0 0.0  0.0
+
+# PBC
+wrapAll                 on
+PME                     yes
+PMEGridSpacing          1.0
+
+# Temperature control
+
+set temperature         298
+temperature             $temperature;  # initial temperature
+
+# Langevin Dynamics
+langevin            on;  # do langevin dynamics
+langevinDamping     1;   # damping coefficient (gamma) of 1/ps
+langevinTemp        $temperature;   # bath temperature
+langevinHydrogen    no; # don't couple langevin bath to hydrogens
+seed                    12345
+
+# Scripting
+reinitvels          $temperature
+run                 100000

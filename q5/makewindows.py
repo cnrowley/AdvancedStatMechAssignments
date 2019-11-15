@@ -18,12 +18,12 @@ module load namd-multicore/2.13
     p=subprocess.Popen(['sbatch'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)
 
     for l in pbslines:
-        p.stdin.write(l)
+        p.stdin.write(l.encode())
     p.stdin.write('#SBATCH -N ' + w + '\n\n')
-    p.stdin.write('cd ' + cwd + '/' + w + '\n')
+    p.stdin.write( ('cd ' + cwd + '/' + w + '\n').encode() )
     
-    p.stdin.write('namd2 +p8 tip4p-methanol-umb-eq.conf >& tip4p-methanol-umb-eq.out\n')
-    p.stdin.write('namd2 +p8 tip4p-methanol-umb-prod.conf >& tip4p-methanol-umb-prod.out\n')
+    p.stdin.write('namd2 +p8 tip4p-methanol-umb-eq.conf >& tip4p-methanol-umb-eq.out\n'.encode() )
+    p.stdin.write('namd2 +p8 tip4p-methanol-umb-prod.conf >& tip4p-methanol-umb-prod.out\n'.encode() )
     p.stdin.close()
     p.wait()
     jobid=p.stdout.read()[:-1]
@@ -99,9 +99,9 @@ for i in range(0, 35):
     
     print('Writing TCL restraint for window ' + str(i))
     for l in tclLines:
-        tclOutput.write(l)
-    tclOutput.write('   centers ' + str(float(34-i)) + '\n')
-    tclOutput.write('}\n')
+        tclOutput.write(l.encode())
+    tclOutput.write( ('   centers ' + str(float(34-i)) + '\n').encode() )
+    tclOutput.write('}\n'.encode())
     tclOutput.close()
     
     sub(cwd, 'window_' + str(i))

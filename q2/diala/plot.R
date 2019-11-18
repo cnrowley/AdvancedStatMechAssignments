@@ -1,3 +1,4 @@
+install.packages("ggplot2", dependencies = TRUE, repos = "http://cran.us.r-project.org")
 library(ggplot2)
 
 pdf("alanine.pdf", width=3.25, height=3)

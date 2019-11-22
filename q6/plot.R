@@ -1,4 +1,3 @@
-library(ggplot2)
 
 pdf("densprofile.pdf", width=7, height=6)
 

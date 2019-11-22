@@ -1,4 +1,3 @@
-library(ggplot2)
 par(mar = c(1.5, 2, 1, 2))
 
 pdf("folding.pdf", width=3.25, height=7)

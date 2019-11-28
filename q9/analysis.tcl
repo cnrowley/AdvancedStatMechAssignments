@@ -32,7 +32,7 @@ set nf [molinfo top get numframes]
 for {set i 0} {$i < $nf} {incr i} { 
 animate goto $i
 mol reanalyze top
-
+mol ssrecalc 0
 set rg [measure rgyr $selprot]
 set hb [measure hbonds 3.0 30.0 $selprot]
 set nhb [llength [lindex $hb 0]]

@@ -1,4 +1,3 @@
-
 proc percentsheet {structure} {
     set total 0
     set scount 0
@@ -22,10 +21,10 @@ proc percenth {structure} {
 
 
 mol new pout type parm7 waitfor all
-mol  addfile {traj1.dcd} waitfor all 
+mol addfile {traj1.dcd} waitfor all 
 
 set fd [open "folding.dat" "w"]
-puts $fd "time,r_gyr,n_hb,sasa,sheet"
+puts $fd "#time,r_gyr,n_hb,sasa,sheet"
 set selprot [atomselect	top "protein"]
 set nf [molinfo top get numframes] 
 

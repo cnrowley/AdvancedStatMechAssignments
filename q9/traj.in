@@ -1,0 +1,6 @@
+parm pout
+trajin mdcrd
+center :1-10
+image familiar
+trajout traj-center.dcd dcd
+go

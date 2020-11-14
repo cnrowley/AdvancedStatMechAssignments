@@ -9,5 +9,6 @@
 
 module purge
 module load python/3.7.0
+module load scipy-stack/2019b
 
 python analysis.py 

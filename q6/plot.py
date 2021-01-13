@@ -31,3 +31,5 @@ ax.set(xlim=(-33,33), ylim=(0, 0.01), xlabel=r'Z $(\AA)$', ylabel=r'density (mol
 
 plt.show()
 plt.savefig('q6.pdf')
+plt.savefig('q6.png')
+

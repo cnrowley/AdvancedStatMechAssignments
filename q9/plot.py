@@ -77,3 +77,5 @@ ax6.set(xlim=(0,500), xlabel='time (ns)', ylabel='native contacts')
 
 plt.show()
 plt.savefig('q9.pdf')
+plt.savefig('q9.png')
+

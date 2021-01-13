@@ -45,3 +45,5 @@ for i in range(1, 6):
 plt.legend()
 plt.show()
 plt.savefig('o2-pentane_traj.pdf')
+plt.savefig('o2-pentane_traj.png')
+

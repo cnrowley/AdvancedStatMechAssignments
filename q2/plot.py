@@ -24,3 +24,5 @@ ax.set(xlim=(-180,180), ylim=(-180,180), xlabel=r'$\phi (^\circ)$', ylabel=r'$\p
 
 plt.show()
 plt.savefig(sys.argv[2])
+plt.savefig(sys.argv[2][-4:] + '.png')
+

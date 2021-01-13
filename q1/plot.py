@@ -14,3 +14,5 @@ ax.set(xlim=(0,10), xlabel=r'r $(\AA)$', ylabel='g(r)')
 
 plt.show()
 plt.savefig('q1.pdf')
+plt.savefig('q1.png')
+

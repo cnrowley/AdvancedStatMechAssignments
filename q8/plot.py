@@ -17,3 +17,5 @@ ax.set(ylim=(0,15), xlabel=r'z $(\AA)$', ylabel='PMF (kcal/mol)')
 
 plt.show()
 plt.savefig('q8.pdf')
+plt.savefig('q8.png')
+

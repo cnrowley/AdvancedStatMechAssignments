@@ -45,3 +45,4 @@ for i in range(1, 6):
 plt.legend()
 plt.show()
 plt.savefig('o2-water_traj.pdf')
+plt.savefig('o2-water_traj.png')

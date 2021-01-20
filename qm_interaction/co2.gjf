@@ -1,0 +1,12 @@
+%chk=co2.chk
+%nproc=8
+%mem=2000MB
+#MP2/aug-cc-pvtz opt=tight pop=(full,chelpg) density
+
+Title Card Required
+
+0 1 
+ C                 -2.51131212   -0.27903469    0.00000000
+ O                 -3.76971212   -0.27903469    0.00000000
+ O                 -1.25291212   -0.27903469    0.00000000
+

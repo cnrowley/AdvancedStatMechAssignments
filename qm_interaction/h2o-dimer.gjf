@@ -1,0 +1,15 @@
+%chk=h2o-dimer.chk
+%nproc=8
+%mem=2000MB
+#MP2/aug-cc-pvtz opt=(maxcycles=50) counterpoise=2
+
+Title Card Required
+
+0 1 0 1 0 1
+ O(Fragment=1)                   1.36500749   -0.53544494    0.00000000 
+ H(Fragment=1)                   2.32500749   -0.53544494    0.00000000 
+ H(Fragment=1)                   1.04455290    0.36949089    0.00000000 
+ O(Fragment=2)                  -1.73596849   -3.72793109    2.24077491 
+ H(Fragment=2)                  -1.14897448   -3.06048215    1.87807677 
+ H(Fragment=2)                  -2.06544876   -3.43556599    3.09374935 
+

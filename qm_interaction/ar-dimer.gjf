@@ -1,0 +1,13 @@
+%chk=ar-dimer.chk
+%nproc=8
+%mem=2000MB
+#MP2/aug-cc-pvtz opt=modredundant counterpoise=2
+
+Title Card Required
+
+0 1 0 1 0 1
+ Ar(Fragment=1) 0.0 0.0 0.0
+ Ar(Fragment=2) 0.0 0.0 2.0
+
+1 2 S 80 0.1
+

@@ -7,6 +7,6 @@
 #SBATCH --nodes=1
 #SBATCH --time=24:00:00
 
-module load gaussian/g16.a03
+module load gaussian
 g16 < co2.gjf > co2.out
 

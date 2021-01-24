@@ -1,3 +1,4 @@
+#!/bin/bash
 #SBATCH --output std.out
 #SBATCH --mem-per-cpu=1024M
 #SBATCH --job-name=h2o-dimer

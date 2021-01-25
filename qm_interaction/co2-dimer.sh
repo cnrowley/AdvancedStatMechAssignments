@@ -1,4 +1,5 @@
 #!/bin/bash
+#SBATCH --account=def-crowley
 #SBATCH --output std.out
 #SBATCH --mem-per-cpu=1024M
 #SBATCH --job-name=h2o-dimer

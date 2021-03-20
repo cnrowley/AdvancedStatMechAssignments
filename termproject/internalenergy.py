@@ -29,4 +29,4 @@ def grep(string,file):
 inte=grep("ENERGY:  ", file)
 inte=inte/molnum
 
-print 'INTERNAL ENERGY: ' + str(inte) + ' kJ/mol\n'
+print('INTERNAL ENERGY: ' + str(inte) + ' kJ/mol\n')

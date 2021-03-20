@@ -69,4 +69,4 @@ PMEGridSpacing          1.0
 
 # Scripting
 reinitvels          $temperature
-run                 10000000
+run                 5000000

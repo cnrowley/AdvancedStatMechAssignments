@@ -9,10 +9,10 @@
 
 module purge
 
-pip install mdtraj --no-index --user
 module load nixpkgs/16.09
 module load python/3.7.0
-
 module load scipy-stack/2019b
+
+pip install mdtraj --no-index --user
 
 python analysis.py 

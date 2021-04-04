@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=rrg-crowley-ac
+#SBATCH --account=rrg-crowley-ab
 #SBATCH --output std.out
 #SBATCH --mem-per-cpu=1024M 
 #SBATCH --mail-type=ALL

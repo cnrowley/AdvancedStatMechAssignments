@@ -4,7 +4,7 @@
 #SBATCH --ntasks-per-node=32
 #SBATCH --output std.out
 #SBATCH --mem-per-cpu=1024M 
-#SBATCH --account=rrg-crowley-ab
+#SBATCH --account=rrg-crowley-ac
 #SBATCH --time=24:00:00
 #SBATCH --job-name=folding
 

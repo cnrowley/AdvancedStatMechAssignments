@@ -1,7 +1,7 @@
 #!/bin/bash
-#SBATCH --account=rrg-crowley-ab
+#SBATCH --account=rrg-crowley-ac
 #SBATCH --output std.out
-#SBATCH --mem-per-cpu=1024M 
+#SBATCH --mem-per-cpu=1024M
 #SBATCH --mail-type=ALL
 #SBATCH --job-name=rotaxane_unprot
 #SBATCH --ntasks=8

@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --account=def-crowley-ac
+#SBATCH --account=rrg-crowley-ac
 #SBATCH --output std.out
 #SBATCH --mem-per-cpu=1024M
 #SBATCH --job-name=h2o

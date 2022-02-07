@@ -7,8 +7,8 @@ dim=float(sys.argv[3])
 offset=[0,0,0,0]
 data_prev=list(map(float,lines[1].split()))
 
-print sys.argv[1]
-print sys.argv[2]
+print(sys.argv[1])
+print(sys.argv[2])
 
 for l in lines:
     if(l[0]=='#'):

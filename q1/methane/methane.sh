@@ -9,7 +9,7 @@
 #SBATCH --time=3:00:00
 
 module purge
-module load namd-multicore/2.13
+module load namd-multicore/2.14
 
 namd2 +p4 methane.conf > methane.out
 

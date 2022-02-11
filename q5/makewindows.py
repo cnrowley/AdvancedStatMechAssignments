@@ -12,7 +12,7 @@ def sub(cwd, w):
 #SBATCH --time=12:00:00
 
 module purge
-module load namd-multicore/2.13
+module load   StdEnv/2020  intel/2020.1.217 namd-multicore/2.14
 
 """
     p=subprocess.Popen(['sbatch'], stdin=subprocess.PIPE, stdout=subprocess.PIPE)

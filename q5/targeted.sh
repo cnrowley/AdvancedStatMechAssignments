@@ -9,6 +9,6 @@
 #SBATCH --time=12:00:00
 
 module purge
-module load namd-multicore/2.14
+module load   StdEnv/2020  intel/2020.1.217 namd-multicore/2.14
 
 namd2 +p8 tip4p-methanol-targeted.conf > tip4p-methanol-targeted.out

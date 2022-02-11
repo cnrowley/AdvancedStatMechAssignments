@@ -9,7 +9,7 @@
 #SBATCH --time=3:00:00
 
 module purge
-module load namd-multicore/2.14
+module load   StdEnv/2020  intel/2020.1.217 namd-multicore/2.14
 
 for CYCLE in  `seq 1 5`;
 do

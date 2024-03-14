@@ -1,64 +1,55 @@
 import sys
 import numpy as np
-import matplotlib
-
-def getdata(lines):
-    time=[]
-    pe=[]
-    volume=[]
-
-    for l in lines:
-        if(l[0:7]=='ENERGY:'):
-            y=l.split()
-            time.append(float(y[1])/1000)
-            pe.append(float(y[13]))
-            volume.append(float(y[18])/1000)
-                           
-    return( (time, pe, volume) )
-
-matplotlib.use('Agg')
-
 import matplotlib.pyplot as plt
 
+# Function to calculate moving average
+def moving_average(data, window_size):
+    return np.convolve(data, np.ones(window_size) / window_size, mode='valid')
 
-fh=open(sys.argv[1], 'r')
-lines=fh.readlines()
-fh.close()
+# Function to read the file and extract timestep, potential energy, and volume
+def read_file(file_path):
+    timesteps = []
+    potential_energy = []
+    volume = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            if line.startswith('ENERGY:'):
+                values = line.split()
+                timesteps.append(float(values[1]) * 2e-3 / 10000)  # Convert timestep to ns (each timestep is 2 fs)
+                potential_energy.append(float(values[13]))  # Energy in kcal/mol
+                volume.append(float(values[18]))
+    return timesteps, potential_energy, volume
 
-(time, energies, volumes)=getdata(lines)
-maxtime=max(time)
+# Function to plot the graphs
+def plot_graphs(timesteps, data, ylabel, output_path):
+    num_plots = len(data)
+    fig, axs = plt.subplots(num_plots, 1, figsize=(3.25, 4*num_plots))
 
-fig=plt.figure()
+    for i in range(num_plots):
+        axs[i].plot(timesteps, data[i], label='Original Data')
+        moving_mean = moving_average(data[i], window_size=1000)  # Calculate moving mean with window size 10
+        axs[i].plot(timesteps[len(timesteps)-len(moving_mean):], moving_mean, color='red', label='Moving Mean')
+        axs[i].set_xlabel('Time (ns)')
+        axs[i].set_ylabel(ylabel[i])
+        axs[i].legend()
 
-fig.set_size_inches(3.25, 4)
+    fig.tight_layout()
+    plt.savefig(output_path + '.png')
+    plt.savefig(output_path + '.pdf')
+    plt.show()
 
-ax1 = fig.add_subplot(211)    # The big subplot
-ax2 = fig.add_subplot(212)
+# Main function
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: python plot.py <namd output file name>")
+        return
 
-fig.subplots_adjust(bottom=0.1, top=0.95, left=0.3, hspace=0.001)
-# h, s, contacts, rmsd, beta, g
-                 
-weights=np.repeat(1.0, 10000)/10000
+    file_path = sys.argv[1]
+    output_path = 'equilibriation'
 
-# plot the time series of the root-mean-square-displacement
-plt.subplot(211)
-plt.plot(time, energies, '-', label=r'Potential Energy')
+    timesteps, potential_energy, volume = read_file(file_path)
 
-# use convolve to generate running average
+    plot_graphs(timesteps, [potential_energy, volume], ['Potential Energy (kcal/mol)', 'Volume (cubic angstrom)'], output_path)
 
-plt.plot(time[5000:-4999], np.convolve(energies, weights, mode='valid'))
-ax1.set(xlim=(0, maxtime), xlabel='time (ps)', ylabel=r'Potential Energy (kcal/mol)')
-
-ax1.set_xticklabels([])
-
-# plot the time series of the radius of gyration
-
-plt.subplot(212)
-plt.plot(time, volumes, '-', label=r'Volume (nm$^3$)')
-plt.plot(time[5000:-4999], np.convolve(volumes, weights, mode='valid'))
-ax2.set(xlim=(0, maxtime), xlabel='time (ps)', ylabel=r'Volume (nm$^3$)')
-
-plt.show()
-plt.savefig('equilibriation.pdf')
-plt.savefig('equiilbriation.png')
-
+if __name__ == "__main__":
+    main()

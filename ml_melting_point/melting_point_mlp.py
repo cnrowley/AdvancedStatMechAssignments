@@ -125,13 +125,6 @@ param_grid = {
     'alpha': [0.0001, 0.001, 0.01]
 }
 
-param_grid = {
-    'hidden_layer_sizes': [(50,), ],
-    'activation': ['relu'],
-    'solver': ['adam',],
-    'alpha': [0.0001]
-}
-
 mlp_regressor = MLPRegressor(max_iter=1000, random_state=42)
 mlp_regressor.feature_names_in_ = X.columns
 

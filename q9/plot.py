@@ -63,9 +63,9 @@ ax4.set_xticklabels([])
 
 # plot the time series of the percentage of residues forming a beta sheet secondary structure
 plt.subplot(615)
-plt.plot(t, beta, '-', label='% beta')
+plt.plot(t, beta, '-', label='fraction beta')
 plt.plot(t[50:-49], np.convolve(beta, weights, mode='valid'))
-ax5.set(xlim=(0,500),  ylabel='% beta')
+ax5.set(xlim=(0,500),  ylabel='fraction beta')
 ax5.set_xticklabels([])
 
 # plot the time series of the percentage of native contacts formed

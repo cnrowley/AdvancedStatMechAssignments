@@ -1,7 +1,7 @@
 ! MP2/aug-cc-pvtz Opt
 
 %geom Scan
-B 0 1 = 2.0, 10.0, 80
+B 0 1 = 1.0, 10.0, 91
 end
 end
 *xyz 0 1

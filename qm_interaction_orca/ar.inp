@@ -1,0 +1,10 @@
+! MP2/aug-cc-pvtz Opt
+
+%geom Scan
+B 0 1 = 2.0, 10.0, 80
+end
+end
+*xyz 0 1
+Ar 0.0 0.0 0.0 # This is atom zero
+Ar 0.0 0.0 1.0 # This is atom one
+*

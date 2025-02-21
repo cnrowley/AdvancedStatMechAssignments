@@ -4,6 +4,7 @@
 B 0 1 = 1.0, 10.0, 91
 end
 end
+
 *xyz 0 1
 Ar 0.0 0.0 0.0 # This is atom zero
 Ar 0.0 0.0 1.0 # This is atom one

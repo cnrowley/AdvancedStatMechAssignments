@@ -1,4 +1,4 @@
-!MP2 aug-cc-pvtz tightopt 
+! MP2 aug-cc-pvtz tightopt 
 
 *xyz 0 1 
  O                   1.36500749   -0.53544494    0.00000000 

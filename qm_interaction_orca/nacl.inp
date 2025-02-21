@@ -1,7 +1,4 @@
-%chk=nacl.chk
-%nproc=8
-%mem=2000MB
-!MP2/aug-cc-pvtz opt
+! MP2/aug-cc-pvtz opt
 
 %geom Scan
 B 0 1 = 1.0, 10.0, 91

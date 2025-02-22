@@ -20,10 +20,10 @@ $EBROOTORCA/orca h2.inp > h2.out
 $EBROOTORCA/orca o2.inp > o2.out
 $EBROOTORCA/orca n2.inp > n2.out
 
-$EBROOTORCA/orca co2_ccsdt.inp > co2_ccsdt.out
-$EBROOTORCA/orca ch4_ccsdt.inp > ch4_ccsdt.out
-$EBROOTORCA/orca nh3_ccsdt.inp > nh3_ccsdt.out
-$EBROOTORCA/orca h2o_ccsdt.inp > h2o_ccsdt.out
-$EBROOTORCA/orca h2_ccsdt.inp > h2_ccsdt.out
-$EBROOTORCA/orca o2_ccsdt.inp > o2_ccsdt.out
-$EBROOTORCA/orca n2_ccsdt.inp > n2_ccsdt.out
+$EBROOTORCA/orca co2-ccsdt.inp > co2-ccsdt.out
+$EBROOTORCA/orca ch4-ccsdt.inp > ch4-ccsdt.out
+$EBROOTORCA/orca nh3-ccsdt.inp > nh3-ccsdt.out
+$EBROOTORCA/orca h2o-ccsdt.inp > h2o-ccsdt.out
+$EBROOTORCA/orca h2-ccsdt.inp > h2-ccsdt.out
+$EBROOTORCA/orca o2-ccsdt.inp > o2-ccsdt.out
+$EBROOTORCA/orca n2-ccsdt.inp > n2-ccsdt.out

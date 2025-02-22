@@ -5,7 +5,7 @@
 #SBATCH --job-name=mp2_ccsd
 #SBATCH --ntasks=8
 #SBATCH --nodes=1
-#SBATCH --time=3:00:00
+#SBATCH --time=24:00:00
 
 module purge
 

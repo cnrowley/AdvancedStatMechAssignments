@@ -1,3 +1,3 @@
-!CCSD(T) aug-cc-pVTZ  tightscf
+!CCSD(T) cc-pVTZ  tightscf
 
 * xyzfile 0 3 o2.xyz

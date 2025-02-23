@@ -1,4 +1,4 @@
-! PBE0 aug-cc-pVTZ  opt freq
+! PBE0 cc-pVTZ  opt freq
 
 * xyz 0 1
 C 0.000000 0.000000 0.000000

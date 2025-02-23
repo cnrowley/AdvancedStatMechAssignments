@@ -1,4 +1,4 @@
-! HF aug-cc-pVTZ  opt  freq
+! HF cc-pVTZ  opt  freq
 
 *xyz 0 1
 O          0.00000        0.00000        0.11779

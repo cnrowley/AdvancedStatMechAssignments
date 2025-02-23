@@ -1,4 +1,4 @@
-! mp2 aug-cc-pVTZ   opt freq
+! mp2 cc-pVTZ  opt numfreq
 
 *xyz 0 3
 O 0.000000 0.000000 0.000000

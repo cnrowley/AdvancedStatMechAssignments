@@ -3,7 +3,7 @@
 #SBATCH --output std.out
 #SBATCH --mem-per-cpu=8192M
 #SBATCH --mail-type=ALL
-#SBATCH --job-name=MLP
+#SBATCH --job-name=LogisticRegression
 #SBATCH --ntasks=1
 #SBATCH --nodes=1
 #SBATCH --time=24:00:00

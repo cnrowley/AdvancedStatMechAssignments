@@ -84,10 +84,10 @@ def evaluate_secondary_test(model, scaler, test_file, feature_names):
     return pd.DataFrame(results, columns=['Model', 'Dataset', 'Accuracy', 'Precision (Positive)', 'Recall (Positive)', 'F1-Score (Positive)'])
 
 if __name__ == '__main__':
-    pos_file = 'positive_descriptors.csv'
-    neg_file = 'negative_descriptors.csv'
-    secondary_test_file = 'testset_combined_descriptors.csv'
-
+    pos_file = 'positive_training.csv'
+    neg_file = 'negative_training.csv'
+    secondary_test_file = 'testset.csv'
+    
     (X_train, X_temp, y_train, y_temp), feature_names = load_and_prepare_data(pos_file, neg_file)
     X_val, X_test, y_val, y_test = train_test_split(X_temp, y_temp, test_size=0.5, random_state=random_seed)
 

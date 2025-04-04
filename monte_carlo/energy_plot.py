@@ -38,3 +38,21 @@ plt.ylabel(r'$\mathcal{V}$ (kJ/mol)')
 plt.show()
 # Save the plot to disk
 plt.savefig('energy_plot.png')
+# Message and decorations
+
+message = '\t  . ༓   ༓   ༓  The PNG file has been saved.  ༓   ༓   ༓  .   \n\t\t\t Check working directory.'
+decorations = [
+    '\t\t\t︶꒦︶꒷︶︶꒷꒦︶︶︶꒷꒦‧ ︶˚・\n',
+    '\t\t\tতততততততততততততততততততততততত\n',
+    '\t\t\t✠ ——— ✠ ——— ✠ ——— ✠ ——— ✠\n'
+]
+
+# Color codes
+GREEN = '\033[32m'
+RESET = '\033[0m'
+
+# Print the message with different decorations
+print(f"{GREEN}{message}{RESET}")
+
+for decoration in decorations:
+    print(f"{GREEN}{decoration}{message}{RESET}")

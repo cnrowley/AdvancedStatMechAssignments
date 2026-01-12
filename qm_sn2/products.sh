@@ -12,4 +12,4 @@ module purge
 module load StdEnv/2023  gcc/12.3  openmpi/4.1.5
 module load orca/6.0.1
 
-$EBROOTORCA/orca products.inp > producys.out
+$EBROOTORCA/orca products.inp > products.out

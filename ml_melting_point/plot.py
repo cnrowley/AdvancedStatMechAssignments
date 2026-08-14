@@ -13,8 +13,10 @@ min_mp=min(lr_data['Target_MP'])
 max_mp=max(lr_data['Target_MP'])
 
 
-# Create a 1:1 correlation line data
-x = y = lr_data['Target_MP']
+# Create a 1:1 correlation line data (just the two diagonal endpoints, not the raw
+# unsorted Target_MP values -- plotting those directly draws a jagged zigzag instead
+# of a straight reference line)
+diag = [min_mp, max_mp]
 
 # Plot correlation heatmaps with adjusted dimensions
 plt.figure(figsize=(14, 10))
@@ -22,7 +24,7 @@ plt.figure(figsize=(14, 10))
 # Linear Regression Model
 plt.subplot(221)
 plt.hist2d(lr_data['Target_MP'], lr_data['Predicted_MP'], bins=(100, 100), norm=mpl.colors.LogNorm(), cmap='YlOrRd',  range=[ [min_mp, max_mp], [min_mp, max_mp] ])
-plt.plot(x, y, color='blue')  # 1:1 correlation line                                                                                                                                               
+plt.plot(diag, diag, color='blue')  # 1:1 correlation line                                                                                                                                               
 plt.title('Linear Regression')
 plt.xlabel('True Melting Point (K)')
 plt.ylabel('Predicted Melting Point (K)')
@@ -30,7 +32,7 @@ plt.ylabel('Predicted Melting Point (K)')
 # Random Forest Model
 plt.subplot(222)
 plt.hist2d(rf_data['Target_MP'], rf_data['Predicted_MP'], bins=(100, 100), norm=mpl.colors.LogNorm(), cmap='YlOrRd',  range=[ [min_mp, max_mp], [min_mp, max_mp] ])
-plt.plot(x, y, color='blue')  # 1:1 correlation line
+plt.plot(diag, diag, color='blue')  # 1:1 correlation line
 plt.title('Random Forest')
 plt.xlabel('True Melting Point (K)')
 plt.ylabel('Predicted Melting Point (K)')
@@ -38,7 +40,7 @@ plt.ylabel('Predicted Melting Point (K)')
 # MLP Regression Model
 plt.subplot(223)
 plt.hist2d(mlp_data['Target_MP'], mlp_data['Predicted_MP'], bins=(100, 100), norm=mpl.colors.LogNorm(), cmap='YlOrRd',  range=[ [min_mp, max_mp], [min_mp, max_mp] ])
-plt.plot(x, y, color='blue')  # 1:1 correlation line
+plt.plot(diag, diag, color='blue')  # 1:1 correlation line
 plt.title('MLP Regression')
 plt.xlabel('True Melting Point (K)')
 plt.ylabel('Predicted Melting Point (K)')
@@ -46,7 +48,7 @@ plt.ylabel('Predicted Melting Point (K)')
 # Null Model
 plt.subplot(224)
 plt.hist2d(null_data['Target_MP'], null_data['Predicted_MP'], bins=(100, 100), norm=mpl.colors.LogNorm(), cmap='YlOrRd',  range=[ [min_mp, max_mp], [min_mp, max_mp] ])
-plt.plot(x, y, color='blue')  # 1:1 correlation line
+plt.plot(diag, diag, color='blue')  # 1:1 correlation line
 plt.title('Null Model')
 plt.xlabel('True Melting Point (K)')
 plt.ylabel('Predicted Melting Point (K)')

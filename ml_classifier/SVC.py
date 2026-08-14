@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 import time
+import joblib
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, accuracy_score
@@ -72,3 +73,12 @@ if __name__ == '__main__':
     secondary_results = evaluate_secondary_test(model, scaler, secondary_test_file, feature_names)
     print("\nClassifier Performance on Secondary Test Set")
     print(secondary_results.to_string(index=False, float_format='%.2f'))
+
+    model_path = 'svc_model.joblib'
+    joblib.dump({
+        'model': model,
+        'scaler': scaler,
+        'feature_names': list(feature_names),
+        'model_name': 'SVC',
+    }, model_path)
+    print(f"\nSaved best model to {model_path}")

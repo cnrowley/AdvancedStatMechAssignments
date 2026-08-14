@@ -2,6 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 import time
+import joblib
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, accuracy_score
@@ -21,7 +22,7 @@ def load_and_prepare_data(pos_file, neg_file):
     pos_df['label'] = 1
     neg_df['label'] = 0
 
-    data = pd.concat([pos_df, neg_df], axis=0).sample(frac=1).reset_index(drop=True)
+    data = pd.concat([pos_df, neg_df], axis=0).sample(frac=1, random_state=random_seed).reset_index(drop=True)
     X = data.iloc[:, 1:-1]  # Skip SMILES and label columns
     y = data['label']
 
@@ -94,4 +95,13 @@ if __name__ == '__main__':
 
     print("\nClassifier Performance on Secondary Test Set")
     print(secondary_results.to_string(index=False, float_format='%.2f'))
-    
+
+    model_path = 'random_forest_model.joblib'
+    joblib.dump({
+        'model': model.best_estimator_,
+        'scaler': scaler,
+        'feature_names': list(feature_names),
+        'model_name': 'Random Forest',
+    }, model_path)
+    print(f"\nSaved best model to {model_path}")
+

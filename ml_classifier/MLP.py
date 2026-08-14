@@ -2,12 +2,15 @@ import os
 import pandas as pd
 import numpy as np
 import time
+import joblib
 from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import classification_report, accuracy_score
 from sklearn.neural_network import MLPClassifier
 from sklearn.inspection import permutation_importance
 
+# Use SLURM environment variables to determine the number of CPUs
+num_cpus = int(os.getenv('SLURM_CPUS_PER_TASK', default=1))  # Default to 1 if not running in SLURM
 random_seed = 0  # replace with student number
 
 def load_and_prepare_data(pos_file, neg_file):
@@ -20,7 +23,7 @@ def load_and_prepare_data(pos_file, neg_file):
     pos_df['label'] = 1
     neg_df['label'] = 0
 
-    data = pd.concat([pos_df, neg_df], axis=0).sample(frac=1).reset_index(drop=True)
+    data = pd.concat([pos_df, neg_df], axis=0).sample(frac=1, random_state=random_seed).reset_index(drop=True)
     X = data.iloc[:, 1:-1]  # Skip SMILES and label columns
     y = data['label']
 
@@ -39,10 +42,10 @@ def train_and_evaluate(X_train, X_val, X_test, y_train, y_val, y_test, feature_n
         'max_iter': [200, 300]
     }
     sample_weights = calculate_sample_weights(y_train)
-    model = GridSearchCV(MLPClassifier(random_state=random_seed), param_grid, cv=3, scoring='accuracy')
-    
+    model = GridSearchCV(MLPClassifier(random_state=random_seed), param_grid, cv=3, scoring='accuracy', n_jobs=num_cpus)
+
     start_time = time.time()
-    model.fit(X_train, y_train)
+    model.fit(X_train, y_train, sample_weight=sample_weights)
     training_time = time.time() - start_time
 
     results = []
@@ -101,4 +104,13 @@ if __name__ == '__main__':
 
     print("\nClassifier Performance on Secondary Test Set")
     print(secondary_results.to_string(index=False, float_format='%.2f'))
-    
+
+    model_path = 'mlp_model.joblib'
+    joblib.dump({
+        'model': model.best_estimator_,
+        'scaler': scaler,
+        'feature_names': list(feature_names),
+        'model_name': 'MLP',
+    }, model_path)
+    print(f"\nSaved best model to {model_path}")
+
